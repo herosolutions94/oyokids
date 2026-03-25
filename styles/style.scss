@@ -647,11 +647,18 @@ body {
   }
 
   .vgrid {
-    display: flex;
+    display: grid;
+    /* Force exactly 3 columns per row on desktop/tablet */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 14px;
-    justify-content: center;
-    flex-wrap: wrap;
+    /* Limit the max-width of the grid so the 3 cards don't get too wide */
+   max-width: 50rem;
     margin: 0 auto;
+
+    @include mobile_sm {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 100%;
+    }
   }
 
   .vcard {
@@ -661,12 +668,10 @@ body {
     border-radius: 18px;
     padding: 16px 12px 12px;
     text-align: center;
-    width: 136px;
+    /* Remove fixed width to let the grid control the size */
+    width: 100%; 
     transition: transform 0.2s;
     box-shadow: 0 4px 16px rgba(47, 42, 58, 0.08);
-    @include mobile_sm{
-      width: 47%;
-    }
 
     &:hover {
       transform: translateY(-5px);
@@ -685,7 +690,7 @@ body {
       font-weight: 900;
       color: white;
       margin-bottom: 8px;
-      min-height: 2.4rem; /* Ensures alignment if text wraps */
+      min-height: 2.4rem; 
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1273,4 +1278,168 @@ footer {
 .color-strip {
     height: 4px;
     background: linear-gradient(90deg, $pink, $purple, $sky, $mint, $lemon, $peach);
+}
+
+
+// ====login===
+
+.logd_sc{
+    .auth-page {
+      display: flex;
+      min-height: 100vh;
+      width: 100%;
+      background: $ink;
+      margin: 0;
+
+      @include mobile {
+          flex-direction: column;
+      }
+
+      /* LEFT PANEL */
+      .left-panel {
+          flex: 1.1;
+          background: linear-gradient(160deg, #9ddcec 0%, #86a5d3 40%, #9f7eb2 100%);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          overflow: hidden;
+          padding: 48px;
+
+          .blob {
+              position: absolute;
+              border-radius: 50%;
+              opacity: 0.2;
+              animation: drift 8s ease-in-out infinite;
+          }
+          .blob1 { width:320px; height:320px; background:$lemon; top:-80px; left:-60px; }
+          .blob2 { width:200px; height:200px; background:$mint; bottom:60px; right:-40px; animation-delay:2s; }
+
+          .left-content {
+              position: relative;
+              z-index: 2;
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              gap: 24px;
+          }
+
+          .left-logo { width: 160px; height: auto; }
+
+          .left-tagline {
+              font-size: 1.8rem;
+              font-weight: 900;
+              color: white;
+              line-height: 1.2;
+              span { color: $lemon; }
+          }
+      }
+
+      /* RIGHT PANEL */
+      .right-panel {
+          flex: 0.9;
+          background: white;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 48px 56px;
+          position: relative;
+
+          &::before {
+              content: '';
+              position: absolute;
+              top: 0; left: 0; right: 0; height: 5px;
+              background: linear-gradient(90deg, $pink, $purple, $sky, $mint, $lemon);
+          }
+
+          .right-inner { width: 100%; max-width: 380px; }
+
+          .welcome-text {
+              font-size: 1.9rem;
+              font-weight: 900;
+              color: $ink;
+              margin-bottom: 5px;
+              span { color: $pink; }
+          }
+
+          .tabs {
+              display: flex;
+              background: #f5f5f5;
+              border-radius: 50px;
+              padding: 4px;
+              margin: 25px 0;
+          }
+
+          .tab-btn {
+              flex: 1;
+              padding: 10px;
+              border: none;
+              background: transparent;
+              border-radius: 50px;
+              font-weight: 800;
+              color: #999;
+              cursor: pointer;
+              &.active {
+                  background: $pink;
+                  color: white;
+              }
+          }
+
+          .form-group { margin-bottom: 18px; position: relative; }
+          .form-label { display: block; font-size: 0.8rem; font-weight: 800; margin-bottom: 5px; text-transform: uppercase; }
+
+          .auth-input {
+              width: 100%;
+              padding: 14px 18px 14px 48px;
+              border: 2px solid #eee;
+              border-radius: 14px;
+              outline: none;
+              background: #fafafa;
+              font-family: 'Nunito', sans-serif;
+              &:focus { border-color: $pink; background: white; }
+          }
+
+          .icon-box { position: absolute; left: 16px; bottom: 14px; opacity: 0.4; }
+
+          .btn-submit {
+              width: 100%;
+              padding: 15px;
+              background: $pink;
+              color: white;
+              border: none;
+              border-radius: 14px;
+              font-weight: 900;
+              font-size: 1rem;
+              cursor: pointer;
+              box-shadow: 0 6px 20px rgba($pink, 0.4);
+              font-family: 'Nunito', sans-serif;
+          }
+
+          .role-selector { display: flex; gap: 10px; margin-bottom: 15px; }
+          .role-btn {
+              flex: 1; padding: 12px 8px; border: 2px solid #eee; border-radius: 14px;
+              background: white; font-weight: 800; color: #999; cursor: pointer;
+              &.active { border-color: $purple; background: #f8f5ff; color: $purple; }
+          }
+
+          .divider {
+              display: flex; align-items: center; gap: 12px; margin: 25px 0;
+              span { font-size: 0.8rem; color: #bbb; }
+              .line { flex: 1; height: 1px; background: #eee; }
+          }
+
+          .color-strip-bottom {
+              position: absolute; bottom: 0; left: 0; right: 0; height: 4px;
+              background: linear-gradient(90deg, $pink, $purple, $sky, $mint, $lemon, $peach);
+          }
+      }
+  }
+
+  @keyframes drift {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50% { transform: translateY(-20px) scale(1.05); }
+  }
 }

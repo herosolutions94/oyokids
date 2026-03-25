@@ -8,10 +8,8 @@ export default function Layout({ children }) {
 
  
   const hideFooterPages = [
-    "/upload_image",
-    "/create_ai_step",
-    "/result",
-    "/create_ai_result",
+    "/login",
+    "/signup",
   ];
 
   const hideFooter = hideFooterPages.includes(router.pathname);
@@ -19,7 +17,7 @@ export default function Layout({ children }) {
   return (
     <div className="content">
       <SiteMaster />
-      <Header />
+     {!hideFooter && <Header />} 
       {children}
       {!hideFooter && <Footer />}
     </div>

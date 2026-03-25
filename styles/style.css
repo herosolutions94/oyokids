@@ -672,11 +672,19 @@ body {
   color: rgba(255, 255, 255, 0.75);
 }
 .vocab-preview .vgrid {
-  display: flex;
+  display: grid;
+  /* Force exactly 3 columns per row on desktop/tablet */
+  grid-template-columns: repeat(3, 1fr);
   gap: 14px;
-  justify-content: center;
-  flex-wrap: wrap;
+  /* Limit the max-width of the grid so the 3 cards don't get too wide */
+  max-width: 50rem;
   margin: 0 auto;
+}
+@media (max-width: 475px) {
+  .vocab-preview .vgrid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+  }
 }
 .vocab-preview .vcard {
   background: rgba(255, 255, 255, 0.22);
@@ -685,14 +693,10 @@ body {
   border-radius: 18px;
   padding: 16px 12px 12px;
   text-align: center;
-  width: 136px;
+  /* Remove fixed width to let the grid control the size */
+  width: 100%;
   transition: transform 0.2s;
   box-shadow: 0 4px 16px rgba(47, 42, 58, 0.08);
-}
-@media (max-width: 475px) {
-  .vocab-preview .vcard {
-    width: 47%;
-  }
 }
 .vocab-preview .vcard:hover {
   transform: translateY(-5px);
@@ -710,7 +714,7 @@ body {
   font-weight: 900;
   color: white;
   margin-bottom: 8px;
-  min-height: 2.4rem; /* Ensures alignment if text wraps */
+  min-height: 2.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1264,4 +1268,224 @@ footer .footer-links a:hover {
 .color-strip {
   height: 4px;
   background: linear-gradient(90deg, #e17ca8, #9f7eb2, #9ddcec, #b1d570, #ebfa75, #f9c575);
+}
+
+.logd_sc .auth-page {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background: #2f2a3a;
+  margin: 0;
+}
+@media (max-width: 769px) {
+  .logd_sc .auth-page {
+    flex-direction: column;
+  }
+}
+.logd_sc .auth-page {
+  /* LEFT PANEL */
+}
+.logd_sc .auth-page .left-panel {
+  flex: 1.1;
+  background: linear-gradient(160deg, #9ddcec 0%, #86a5d3 40%, #9f7eb2 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding: 48px;
+}
+.logd_sc .auth-page .left-panel .blob {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.2;
+  animation: drift 8s ease-in-out infinite;
+}
+.logd_sc .auth-page .left-panel .blob1 {
+  width: 320px;
+  height: 320px;
+  background: #ebfa75;
+  top: -80px;
+  left: -60px;
+}
+.logd_sc .auth-page .left-panel .blob2 {
+  width: 200px;
+  height: 200px;
+  background: #b1d570;
+  bottom: 60px;
+  right: -40px;
+  animation-delay: 2s;
+}
+.logd_sc .auth-page .left-panel .left-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.logd_sc .auth-page .left-panel .left-logo {
+  width: 160px;
+  height: auto;
+}
+.logd_sc .auth-page .left-panel .left-tagline {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: white;
+  line-height: 1.2;
+}
+.logd_sc .auth-page .left-panel .left-tagline span {
+  color: #ebfa75;
+}
+.logd_sc .auth-page {
+  /* RIGHT PANEL */
+}
+.logd_sc .auth-page .right-panel {
+  flex: 0.9;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 56px;
+  position: relative;
+}
+.logd_sc .auth-page .right-panel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #e17ca8, #9f7eb2, #9ddcec, #b1d570, #ebfa75);
+}
+.logd_sc .auth-page .right-panel .right-inner {
+  width: 100%;
+  max-width: 380px;
+}
+.logd_sc .auth-page .right-panel .welcome-text {
+  font-size: 1.9rem;
+  font-weight: 900;
+  color: #2f2a3a;
+  margin-bottom: 5px;
+}
+.logd_sc .auth-page .right-panel .welcome-text span {
+  color: #e17ca8;
+}
+.logd_sc .auth-page .right-panel .tabs {
+  display: flex;
+  background: #f5f5f5;
+  border-radius: 50px;
+  padding: 4px;
+  margin: 25px 0;
+}
+.logd_sc .auth-page .right-panel .tab-btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  border-radius: 50px;
+  font-weight: 800;
+  color: #999;
+  cursor: pointer;
+}
+.logd_sc .auth-page .right-panel .tab-btn.active {
+  background: #e17ca8;
+  color: white;
+}
+.logd_sc .auth-page .right-panel .form-group {
+  margin-bottom: 18px;
+  position: relative;
+}
+.logd_sc .auth-page .right-panel .form-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 800;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.logd_sc .auth-page .right-panel .auth-input {
+  width: 100%;
+  padding: 14px 18px 14px 48px;
+  border: 2px solid #eee;
+  border-radius: 14px;
+  outline: none;
+  background: #fafafa;
+  font-family: "Nunito", sans-serif;
+}
+.logd_sc .auth-page .right-panel .auth-input:focus {
+  border-color: #e17ca8;
+  background: white;
+}
+.logd_sc .auth-page .right-panel .icon-box {
+  position: absolute;
+  left: 16px;
+  bottom: 14px;
+  opacity: 0.4;
+}
+.logd_sc .auth-page .right-panel .btn-submit {
+  width: 100%;
+  padding: 15px;
+  background: #e17ca8;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  font-weight: 900;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(225, 124, 168, 0.4);
+  font-family: "Nunito", sans-serif;
+}
+.logd_sc .auth-page .right-panel .role-selector {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.logd_sc .auth-page .right-panel .role-btn {
+  flex: 1;
+  padding: 12px 8px;
+  border: 2px solid #eee;
+  border-radius: 14px;
+  background: white;
+  font-weight: 800;
+  color: #999;
+  cursor: pointer;
+}
+.logd_sc .auth-page .right-panel .role-btn.active {
+  border-color: #9f7eb2;
+  background: #f8f5ff;
+  color: #9f7eb2;
+}
+.logd_sc .auth-page .right-panel .divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 25px 0;
+}
+.logd_sc .auth-page .right-panel .divider span {
+  font-size: 0.8rem;
+  color: #bbb;
+}
+.logd_sc .auth-page .right-panel .divider .line {
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.logd_sc .auth-page .right-panel .color-strip-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #e17ca8, #9f7eb2, #9ddcec, #b1d570, #ebfa75, #f9c575);
+}
+@keyframes drift {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-20px) scale(1.05);
+  }
 }/*# sourceMappingURL=style.css.map */

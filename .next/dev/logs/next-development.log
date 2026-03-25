@@ -465,3 +465,101 @@ styles/style.scss 1:9  root stylesheet
 
 
 [02:43:02.228] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[02:43:38.377] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:43:39.003] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:43:39.812] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[02:43:42.125] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:43:42.470] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:43:42.747] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[02:51:19.318] Server  LOG     ✓ Compiled in 449ms
+[02:53:37.033] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:54:10.380] Server  LOG     ✓ Compiled in 255ms
+[02:55:10.762] Server  LOG     ✓ Compiled in 335ms
+[02:56:39.806] Server  LOG     ✓ Compiled in 337ms
+[02:56:43.820] Server  LOG     ✓ Compiled in 213ms
+[02:57:01.907] Server  LOG     ✓ Compiled in 187ms
+[02:59:08.578] Server  LOG     ✓ Compiled in 366ms
+[02:59:54.808] Server  LOG     ✓ Compiled in 205ms
+[03:00:34.461] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[03:00:34.771] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[03:00:49.218] Server  LOG     ✓ Compiled in 160ms
+[03:01:25.355] Server  LOG     ✓ Compiled in 43ms
+[03:01:43.358] Server  LOG     ✓ Compiled in 16ms
