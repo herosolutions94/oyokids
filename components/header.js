@@ -21,35 +21,7 @@ export default function Header() {
     }
   };
 
-  // Body scroll lock logic
-  useEffect(() => {
-    if (toggle) {
-      const scrollY = window.scrollY;
-      document.body.style.position = "fixed";
-      document.body.style.top = `-${scrollY}px`;
-      document.body.style.width = "100%";
-    } else {
-      const scrollY = document.body.style.top;
-      document.body.style.position = "";
-      document.body.style.top = "";
-      document.body.style.width = "";
-      window.scrollTo(0, parseInt(scrollY || "0") * -1);
-    }
-  }, [toggle]);
-
-  // Scroll detection logic
-  useEffect(() => {
-    const handleScroll = () => {
-      if (toggle) return;
-      setScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [toggle]);
-
-  useEffect(() => {
-    setToggle(false);
-  }, [router.pathname]);
+ 
 
   return (
     <header
@@ -58,6 +30,12 @@ export default function Header() {
       }`}
     >
       <div className="contain">
+        <div
+          className={toggle ? "toggle active" : "toggle"}
+          onClick={ToggleAction}
+        >
+          <span></span>
+        </div>
         <div className="nav-top">
           <div className="logo">
             <Link href="/" onClick={closeMenu}>
@@ -65,12 +43,7 @@ export default function Header() {
             </Link>
           </div>
 
-          <div
-            className={toggle ? "toggle active" : "toggle"}
-            onClick={ToggleAction}
-          >
-            <span></span>
-          </div>
+          
 
           <nav
             id="nav"
@@ -82,6 +55,14 @@ export default function Header() {
               <li><Link href="#vocab" onClick={closeMenu}>Lessons</Link></li>
               <li><Link href="#pricing" onClick={closeMenu}>Pricing</Link></li>
               <li><Link href="#faq" onClick={closeMenu}>FAQ</Link></li>
+              <li className="hide_desk"><Link href="/login" className="nav-login" onClick={closeMenu}>
+                Log In
+              </Link></li>
+              <li className="hide_desk">
+                <Link href="/login" className="nav-signup" onClick={closeMenu}>
+                Start Free
+              </Link>
+              </li>
             </ul>
 
             

@@ -1,3 +1,5 @@
+@import "mixins";
+
 // 1. VARIABLES
 $sky: #9ddcec;
 $blue: #86a5d3;
@@ -37,6 +39,9 @@ body {
     padding: 0 4rem;
     position: relative;
     margin: auto;
+    @include ipad{
+      padding: 0 2rem;
+    }
 }
 
 .contain-sm {
@@ -44,6 +49,9 @@ body {
     padding: 0 4rem;
     position: relative;
     margin: auto;
+    @include ipad{
+      padding: 0 2rem;
+    }
 }
 
 .flex {
@@ -136,8 +144,9 @@ body {
     cursor: pointer;
     width: 30px;
     height: 20px;
-    position: relative;
-    z-index: 400;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
 
     span {
         display: block;
@@ -169,8 +178,8 @@ body {
 }
 
 /* Mobile Responsive */
-@media (max-width: 992px) {
-    .toggle { display: block; }
+@include ipad_sm {
+    .toggle { display: block; z-index: 999;}
 
     #nav {
         position: fixed;
@@ -195,12 +204,26 @@ body {
             a { font-size: 1.5rem !important; }
         }
 
-        .bTn {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
+        
     }
+    .nav-right {
+        margin-left: auto;
+        margin-right: 3rem;
+      }
+}
+.nav-right{
+  @include mobile_sm{
+    display: none;
+  }
+}
+.hide_desk{
+  display: none;
+  @include mobile_sm{
+    display: block;
+    .nav-signup{
+      color: #fff!important;
+    }
+  }
 }
 .bTn{
     a{
@@ -238,6 +261,12 @@ body {
         z-index: 2;
         padding-right: 6rem;
         align-self: center;
+        @include ipad_sm{
+          width: 100%;
+          padding-right: 0;
+          margin-bottom: 3rem;
+          text-align: center;
+        }
     }
 
     .hero-pill {
@@ -254,6 +283,13 @@ body {
         font-weight: 800;
         margin-bottom: 20px;
         letter-spacing: .5px;
+        @include ipad_sm{
+          margin: 0 auto 2rem;
+          svg{
+            display: none;
+          }
+        }
+
     }
 
     h1 {
@@ -280,6 +316,9 @@ body {
         gap: 8px;
         flex-wrap: wrap;
         margin-bottom: 28px;
+        @include ipad_sm{
+          justify-content: center;
+        }
     }
 
     .chip {
@@ -297,6 +336,12 @@ body {
         display: flex;
         gap: 12px;
         flex-wrap: wrap;
+        @include ipad_sm{
+          justify-content: center;
+        }
+        @include mobile_sm{
+          flex-direction: column;
+        }
     }
 
     .btn-primary {
@@ -346,7 +391,10 @@ body {
     .hero-right {
         width: 45%;
         z-index: 2;
-
+        align-self: center;
+        @include ipad_sm{
+          width: 100%;
+        }
         img {
             width: 100%;
             border-radius: 24px;
@@ -359,11 +407,15 @@ body {
 // 6. TRUST BAR
 .trust {
     background: $ink;
-    padding: 22px 60px;
+    padding: 22px 40px;
     display: flex;
     justify-content: center;
     gap: 60px;
     flex-wrap: wrap;
+    @include ipad_sm{
+      gap: 2rem;
+      padding: 22px 20px;
+    }
 
     .ti {
         text-align: center;
@@ -374,6 +426,9 @@ body {
             color: $lemon;
             display: block;
             line-height: 1;
+            @include mobile_sm{
+              font-size: 1.5rem;
+            }
         }
 
         &-l {
@@ -388,7 +443,10 @@ body {
 
 // 7. GENERIC SECTION STYLES
 .section {
-    padding: 80px 60px;
+    padding: 80px 0px;
+    @include ipad_sm{
+      padding: 4rem 0;
+    }
 }
 
 .sec-label {
@@ -511,14 +569,31 @@ body {
       z-index: 0;
     }
 
-    @media (max-width: 1024px) {
-        grid-template-columns: repeat(3, 1fr);
-        &::before { display: none; } // Hide line on smaller grids
+    @include ipad_sm {
+    display: flex;
+    flex-wrap: nowrap;      // Force items into a single line
+    overflow-x: auto;       // Enable horizontal scrolling
+    overflow-y: hidden;     // Prevent vertical jitter
+    padding: 20px 10px;     // Add padding so shadows/content aren't clipped
+    -webkit-overflow-scrolling: touch; // Enable smooth momentum scrolling on iOS
+    justify-content: flex-start;
+
+    // Hide the scrollbar for a cleaner look (optional)
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    &::before {
+      display: none;
     }
 
-    @media (max-width: 768px) {
-        grid-template-columns: 1fr;
+    .step {
+      flex: 0 0 250px; // 0 grow, 0 shrink, 250px base width
+      padding: 0 20px;
     }
+  }
   }
 
   .step {
@@ -589,6 +664,9 @@ body {
     width: 136px;
     transition: transform 0.2s;
     box-shadow: 0 4px 16px rgba(47, 42, 58, 0.08);
+    @include mobile_sm{
+      width: 47%;
+    }
 
     &:hover {
       transform: translateY(-5px);
@@ -1092,6 +1170,9 @@ body {
     &:active {
         transform: translate(0, 0);
     }
+    @include mobile_sm{
+      width: 100%;
+    }
   }
 
   .cta-note {
@@ -1111,6 +1192,22 @@ footer {
         grid-template-columns: 2fr 1fr 1fr 1fr;
         gap: 40px;
         margin-bottom: 40px;
+        @include mobile_sm {
+            grid-template-columns: 1fr; // 1 column (stack everything)
+            gap: 25px;
+            text-align: center; // Optional: center text for mobile
+
+            .footer-brand {
+                grid-column: span 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center; // Center logo if text is centered
+            }
+
+            .footer-about {
+                margin: 0 auto; // Center the description paragraph
+            }
+        }
     }
 
     .footer-logo {
@@ -1150,6 +1247,10 @@ footer {
         align-items: center;
         flex-wrap: wrap;
         gap: 10px;
+        @include mobile_sm{
+          text-align: center;
+          justify-content: center;
+        }
     }
 
     .footer-copy { color: rgba(255, 255, 255, .2); font-size: .72rem; }

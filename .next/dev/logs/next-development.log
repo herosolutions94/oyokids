@@ -151,3 +151,317 @@ Caused by: Error: Undefined mixin.
     [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
     [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
 [01:06:35.512] Server  LOG     ✓ Compiled in 1188ms
+[01:28:25.084] Server  LOG     ✓ Compiled in 801ms
+[01:31:13.664] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[01:31:14.655] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[01:31:15.332] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[01:33:00.937] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[01:59:52.968] Server  LOG     ✓ Compiled in 325ms
+[02:00:00.766] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:00:01.315] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:00:02.108] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[02:00:29.785] Server  LOG     ✓ Compiled in 276ms
+[02:00:35.581] Server  LOG     ✓ Compiled in 168ms
+[02:01:34.583] Server  LOG     ✓ Compiled in 153ms
+[02:04:08.696] Server  LOG     ✓ Compiled in 557ms
+[02:04:54.791] Server  LOG     ✓ Compiled in 451ms
+[02:05:05.190] Server  LOG     ✓ Compiled in 241ms
+[02:05:38.543] Server  LOG     ✓ Compiled in 306ms
+[02:05:39.867] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:05:40.716] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:05:41.453] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[02:07:37.003] Server  LOG     ✓ Compiled in 275ms
+[02:07:56.098] Server  LOG     ✓ Compiled in 218ms
+[02:08:16.664] Server  LOG     ✓ Compiled in 221ms
+[02:08:23.825] Server  LOG     ✓ Compiled in 157ms
+[02:08:34.897] Server  LOG     ✓ Compiled in 205ms
+[02:09:06.424] Server  LOG     ✓ Compiled in 222ms
+[02:09:17.722] Server  LOG     ✓ Compiled in 141ms
+[02:09:36.491] Server  LOG     ✓ Compiled in 253ms
+[02:09:50.185] Server  LOG     ✓ Compiled in 204ms
+[02:12:47.897] Server  LOG     ✓ Compiled in 263ms
+[02:12:56.404] Server  LOG     ✓ Compiled in 296ms
+[02:13:33.612] Server  LOG     ✓ Compiled in 218ms
+[02:13:43.891] Server  LOG     ✓ Compiled in 214ms
+[02:13:55.908] Server  LOG     ✓ Compiled in 112ms
+[02:14:06.834] Server  LOG     ✓ Compiled in 148ms
+[02:14:26.260] Server  LOG     ✓ Compiled in 198ms
+[02:14:48.172] Server  LOG     ✓ Compiled in 163ms
+[02:15:24.401] Server  LOG     ✓ Compiled in 178ms
+[02:15:28.311] Server  LOG     ✓ Compiled in 237ms
+[02:16:20.880] Server  LOG     ✓ Compiled in 338ms
+[02:16:21.711] Server  LOG     ✓ Compiled in 234ms
+[02:16:25.664] Server  LOG     ✓ Compiled in 221ms
+[02:16:36.252] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:16:36.818] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:16:37.526] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[02:19:46.548] Server  LOG     ✓ Compiled in 523ms
+[02:20:25.893] Server  LOG     ✓ Compiled in 271ms
+[02:20:33.456] Server  LOG     ✓ Compiled in 354ms
+[02:20:39.760] Server  LOG     ✓ Compiled in 119ms
+[02:20:50.372] Server  LOG     ✓ Compiled in 243ms
+[02:21:53.649] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:21:54.327] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:21:55.069] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[02:23:23.736] Server  LOG     ✓ Compiled in 306ms
+[02:24:46.134] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:24:46.882] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:24:47.686] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[02:25:23.564] Server  LOG     ✓ Compiled in 323ms
+[02:26:50.317] Server  LOG     ✓ Compiled in 292ms
+[02:29:06.420] Server  LOG     ✓ Compiled in 36ms
+[02:29:41.750] Server  LOG     ✓ Compiled in 340ms
+[02:30:16.000] Server  LOG     ✓ Compiled in 187ms
+[02:30:43.775] Server  LOG     ✓ Compiled in 287ms
+[02:31:00.190] Server  LOG     ✓ Compiled in 223ms
+[02:33:46.683] Server  LOG     ✓ Compiled in 232ms
+[02:34:03.622] Server  LOG     ✓ Compiled in 211ms
+[02:34:12.508] Server  LOG     ✓ Compiled in 215ms
+[02:34:25.397] Server  LOG     ✓ Compiled in 176ms
+[02:34:34.670] Server  LOG     ✓ Compiled in 104ms
+[02:34:58.283] Server  LOG     ✓ Compiled in 178ms
+[02:35:08.164] Server  LOG     ✓ Compiled in 176ms
+[02:35:44.207] Server  LOG     ✓ Compiled in 193ms
+[02:36:54.919] Server  LOG     ✓ Compiled in 329ms
+[02:37:05.163] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:37:05.981] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:37:06.661] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[02:37:40.522] Server  LOG     ✓ Compiled in 316ms
+[02:38:32.819] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:43:00.839] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:43:01.463] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[02:43:02.228] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className

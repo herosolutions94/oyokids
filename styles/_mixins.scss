@@ -1,0 +1,41 @@
+@mixin ipad {
+  @media (max-width: 1025px) {
+    @content;
+  }
+}
+
+@mixin ipad_sm {
+  @media (max-width: 991px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 769px) {
+    @content;
+  }
+}
+
+@mixin mobile_md {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+
+@mixin mobile_sm {
+  @media (max-width: 475px) {
+    @content;
+  }
+}
+
+@mixin mobile_xs {
+  @media (max-width: 375px) {
+    @content;
+  }
+}
+
+@mixin mobile_xx {
+  @media (max-width: 320px) {
+    @content;
+  }
+}
