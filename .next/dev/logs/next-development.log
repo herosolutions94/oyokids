@@ -1,0 +1,153 @@
+[00:00:03.533] Server  LOG     ✓ Ready in 3s
+[00:00:05.590] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:00:06.592] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:01:47.895] Server  LOG     ✓ Compiled in 54ms
+[00:02:19.988] Server  LOG     ✓ Compiled in 402ms
+[00:02:38.746] Server  LOG     ✓ Compiled in 40ms
+[00:03:47.154] Server  LOG     ✓ Compiled in 412ms
+[00:04:05.806] Server  LOG     ✓ Compiled in 317ms
+[00:04:15.839] Server  LOG     ✓ Compiled in 40ms
+[00:04:23.422] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:05:11.876] Server  LOG     ✓ Compiled in 64ms
+[00:05:55.013] Server  LOG     ✓ Compiled in 250ms
+[00:06:18.787] Server  LOG     ✓ Compiled in 202ms
+[00:06:37.863] Server  LOG     ✓ Compiled in 25ms
+[00:07:04.164] Server  LOG     ✓ Compiled in 18ms
+[00:08:10.563] Server  LOG     ✓ Compiled in 294ms
+[00:08:27.517] Server  LOG     ✓ Compiled in 187ms
+[00:08:33.834] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:08:58.034] Server  LOG     ✓ Compiled in 15ms
+[00:10:12.536] Server  LOG     ✓ Compiled in 102ms
+[00:12:15.431] Server  LOG     ✓ Compiled in 122ms
+[00:12:50.319] Server  LOG     ✓ Compiled in 289ms
+[00:13:19.651] Server  LOG     ✓ Compiled in 218ms
+[00:15:57.785] Server  LOG     ✓ Compiled in 88ms
+[00:16:42.726] Server  LOG     ✓ Compiled in 306ms
+[00:16:47.192] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:18:17.105] Server  LOG     ✓ Compiled in 176ms
+[00:18:27.163] Server  LOG     ✓ Compiled in 44ms
+[00:18:45.110] Server  LOG     ✓ Compiled in 39ms
+[00:21:25.246] Server  LOG     ✓ Compiled in 197ms
+[00:21:41.234] Server  LOG     ✓ Compiled in 43ms
+[00:42:45.715] Server  LOG     ✓ Compiled in 292ms
+[00:43:40.255] Server  LOG     ✓ Compiled in 143ms
+[00:44:37.438] Server  LOG     ✓ Compiled in 218ms
+[00:46:38.867] Server  LOG     ✓ Compiled in 70ms
+[00:47:31.523] Server  LOG     ✓ Compiled in 43ms
+[00:47:46.658] Server  LOG     ✓ Compiled in 12ms
+[00:47:54.180] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:48:28.490] Server  LOG     ✓ Compiled in 14ms
+[00:48:50.067] Server  LOG     ✓ Compiled in 42ms
+[00:49:17.952] Server  LOG     ✓ Compiled in 12ms
+[00:51:28.170] Server  LOG     ✓ Compiled in 363ms
+[00:51:40.651] Server  LOG     ✓ Compiled in 112ms
+[00:51:50.667] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:53:38.865] Server  LOG     ✓ Compiled in 20ms
+[00:54:00.314] Server  LOG     ✓ Compiled in 222ms
+[00:54:14.626] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:55:33.220] Server  LOG     ✓ Compiled in 16ms
+[00:57:07.224] Server  LOG     ✓ Compiled in 215ms
+[00:57:21.564] Server  LOG     ✓ Compiled in 65ms
+[00:58:03.763] Server  LOG     ✓ Compiled in 13ms
+[00:59:14.352] Server  LOG     ✓ Compiled in 241ms
+[00:59:28.509] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[01:04:04.728] Server  LOG     ✓ Compiled in 739ms
+[01:05:06.660] Server  LOG     ✓ Compiled in 112ms
+[01:05:28.638] Server  LOG     ✓ Compiled in 238ms
+[01:05:28.941] Browser ERROR   ./styles/style.scss
+Error evaluating Node.js code
+Error: Undefined mixin.
+    ╷
+116 │     @include oyo-btn($pink, #c45a8a);
+    │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+  styles/style.scss 116:5  root stylesheet
+Caused by: Error: Undefined mixin.
+    ╷
+116 │     @include oyo-btn($pink, #c45a8a);
+    │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+  styles/style.scss 116:5  root stylesheet
+    [at Object.wrapException (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:2337:47)]
+    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90244:25]
+    [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
+    [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
+    [at Object._asyncStartSync (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:4969:20)]
+    [at _EvaluateVisitor2._applyMixin$body$_EvaluateVisitor0 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90302:16)]
+    [at _EvaluateVisitor2._async_evaluate0$_applyMixin$5 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90230:19)]
+    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90322:48]
+    [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
+    [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
+[01:05:52.933] Browser ERROR   ./styles/style.scss
+Error evaluating Node.js code
+Error: Undefined mixin.
+    ╷
+116 │     @include oyo-btn($pink, #c45a8a);
+    │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+  styles/style.scss 116:5  root stylesheet
+Caused by: Error: Undefined mixin.
+    ╷
+116 │     @include oyo-btn($pink, #c45a8a);
+    │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+  styles/style.scss 116:5  root stylesheet
+    [at Object.wrapException (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:2337:47)]
+    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90244:25]
+    [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
+    [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
+    [at Object._asyncStartSync (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:4969:20)]
+    [at _EvaluateVisitor2._applyMixin$body$_EvaluateVisitor0 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90302:16)]
+    [at _EvaluateVisitor2._async_evaluate0$_applyMixin$5 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90230:19)]
+    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90322:48]
+    [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
+    [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
+[01:06:05.934] Browser ERROR   ./styles/style.scss
+Error evaluating Node.js code
+Error: Undefined mixin.
+    ╷
+116 │     @include oyo-btn($pink, #c45a8a);
+    │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+  styles/style.scss 116:5  root stylesheet
+Caused by: Error: Undefined mixin.
+    ╷
+116 │     @include oyo-btn($pink, #c45a8a);
+    │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+  styles/style.scss 116:5  root stylesheet
+    [at Object.wrapException (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:2337:47)]
+    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90244:25]
+    [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
+    [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
+    [at Object._asyncStartSync (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:4969:20)]
+    [at _EvaluateVisitor2._applyMixin$body$_EvaluateVisitor0 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90302:16)]
+    [at _EvaluateVisitor2._async_evaluate0$_applyMixin$5 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90230:19)]
+    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90322:48]
+    [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
+    [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
+[01:06:13.932] Browser ERROR   ./styles/style.scss
+Error evaluating Node.js code
+Error: Undefined mixin.
+    ╷
+116 │     @include oyo-btn($pink, #c45a8a);
+    │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+  styles/style.scss 116:5  root stylesheet
+Caused by: Error: Undefined mixin.
+    ╷
+116 │     @include oyo-btn($pink, #c45a8a);
+    │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+  styles/style.scss 116:5  root stylesheet
+    [at Object.wrapException (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:2337:47)]
+    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90244:25]
+    [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
+    [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
+    [at Object._asyncStartSync (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:4969:20)]
+    [at _EvaluateVisitor2._applyMixin$body$_EvaluateVisitor0 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90302:16)]
+    [at _EvaluateVisitor2._async_evaluate0$_applyMixin$5 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90230:19)]
+    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:90322:48]
+    [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
+    [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
+[01:06:35.512] Server  LOG     ✓ Compiled in 1188ms
