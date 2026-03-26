@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Login() {
     const [activeTab, setActiveTab] = useState('login');
@@ -18,18 +19,30 @@ export default function Login() {
                 <div className="blob blob1"></div>
                 <div className="blob blob2"></div>
                 <div className="left-content">
-                    <img src="/images/logo.png" alt="Oyo Kids" className="left-logo" />
+                    <Link href="/">
+                        <img src="/images/logo.png" alt="Oyo Kids" className="left-logo" />
+                    </Link>
                     <div className="left-tagline">Where Every Lesson<br />Feels Like <span>Play</span></div>
+                    <p>The complete gamified English platform for primary school teachers worldwide</p>
+                    <div class="hero-chips">
+                        <span class="chip">Ages 4–11</span>
+                        <span class="chip">Native Audio</span>
+                        <span class="chip">Zero Prep</span>
+                        <span class="chip">Any Device</span>
+                    </div>
                 </div>
             </div>
 
             {/* RIGHT PANEL */}
             <div className="right-panel">
                 <div className="right-inner">
+                    <Link href="/">
+                        <img src="/images/logo.png" alt="Oyo Kids" className="logo_right" />
+                    </Link>
                     <h1 className="welcome-text">
                         {activeTab === 'login' ? 'Welcome back' : 'Join us'} <span>!</span>
                     </h1>
-                    <p style={{color: '#888', marginBottom: '20px', fontSize: '0.9rem'}}>
+                    <p className='l_pera'>
                         {activeTab === 'login' ? 'Sign in to access your classes' : 'Create your teacher account'}
                     </p>
 
@@ -52,12 +65,16 @@ export default function Login() {
                         <div className="login-form">
                             <div className="form-group">
                                 <label className="form-label">Email</label>
-                                <span className="icon-box">✉</span>
+                                <span className="icon-box">
+                                    <img src="/images/envelope.svg" alt="Oyo Kids" className="icon_field" />
+                                </span>
                                 <input type="email" className="auth-input" placeholder="name@school.com" />
                             </div>
                             <div className="form-group">
                                 <label className="form-label">Password</label>
-                                <span className="icon-box">🔒</span>
+                                <span className="icon-box">
+                                    <img src="/images/lock.svg" alt="Oyo Kids" className="icon_field" />
+                                </span>
                                 <input type="password" className="auth-input" placeholder="••••••••" />
                             </div>
                             <button className="btn-submit">Log In to Dashboard</button>
@@ -71,10 +88,32 @@ export default function Login() {
                                 <button className={`role-btn ${role === 'parent' ? 'active' : ''}`} onClick={() => setRole('parent')}>Parent</button>
                             </div>
                             <div className="form-group">
-                                <input type="text" className="auth-input" style={{paddingLeft: '20px'}} placeholder="Full Name" />
+                                <label className="form-label">Full Name</label>
+                                <span className="icon-box">
+                                    <img src="/images/user.svg" alt="Oyo Kids" className="icon_field" />
+                                </span>
+                                <input type="text" className="auth-input" placeholder="john doe" />
                             </div>
                             <div className="form-group">
-                                <input type="email" className="auth-input" style={{paddingLeft: '20px'}} placeholder="Email" />
+                                <label className="form-label">Email</label>
+                                <span className="icon-box">
+                                    <img src="/images/envelope.svg" alt="Oyo Kids" className="icon_field" />
+                                </span>
+                                <input type="email" className="auth-input" placeholder="name@school.com" />
+                            </div>
+                            <div className="form-group">
+                                <label className="form-label">Password</label>
+                                <span className="icon-box">
+                                    <img src="/images/lock.svg" alt="Oyo Kids" className="icon_field" />
+                                </span>
+                                <input type="password" className="auth-input" placeholder="••••••••" />
+                            </div>
+                            <div className="form-group">
+                                <label className="form-label">Confirm Password</label>
+                                <span className="icon-box">
+                                    <img src="/images/lock.svg" alt="Oyo Kids" className="icon_field" />
+                                </span>
+                                <input type="password" className="auth-input" placeholder="••••••••" />
                             </div>
                             <button className="btn-submit">Create Free Account</button>
                         </div>
@@ -86,10 +125,17 @@ export default function Login() {
                         <div className="line"></div>
                     </div>
 
-                    <div style={{display: 'flex', gap: '10px'}}>
-                        <button style={{flex: 1, padding: '12px', borderRadius: '12px', border: '1px solid #eee', background: 'white', cursor: 'pointer', fontWeight: 700}}>Google</button>
-                        <button style={{flex: 1, padding: '12px', borderRadius: '12px', border: '1px solid #eee', background: 'white', cursor: 'pointer', fontWeight: 700}}>Facebook</button>
+                    <div className='g_fb_btn'>
+                        <button><img src="/images/google.png" alt="google" className="icon_field" /> <span>Google</span></button>
+                        <button><img src="/images/facebook.png" alt="facebook" className="icon_field" /> <span>Facebook</span></button>
                     </div>
+
+                    
+                    {/* {activeTab === 'login' ? 
+                    <p className='lst_p'>Don't have an account? <Link href="">Sign up free</Link></p>
+                    :
+                    <p className='lst_p'>Already have an account? <Link href="">Login</Link></p>
+                    } */}
                 </div>
 
                 <div className="color-strip-bottom"></div>

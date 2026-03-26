@@ -14765,7 +14765,7 @@ footer .footer-links a:hover {
   display: flex;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 991px) {
   .logd_sc .auth-page {
     flex-direction: column;
   }
@@ -14781,6 +14781,12 @@ footer .footer-links a:hover {
   display: flex;
   position: relative;
   overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  .logd_sc .auth-page .left-panel {
+    display: none;
+  }
 }
 
 .logd_sc .auth-page .left-panel .blob {
@@ -14817,6 +14823,37 @@ footer .footer-links a:hover {
   position: relative;
 }
 
+.logd_sc .auth-page .left-panel .left-content p {
+  color: #fff;
+  max-width: 16rem;
+  margin: auto;
+}
+
+.logd_sc .auth-page .left-panel .left-content .hero-chips {
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 28px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .logd_sc .auth-page .left-panel .left-content .hero-chips {
+    justify-content: center;
+  }
+}
+
+.logd_sc .auth-page .left-panel .left-content .chip {
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  background: #fff3;
+  border: 1.5px solid #ffffff73;
+  border-radius: 50px;
+  padding: 5px 14px;
+  font-size: .74rem;
+  font-weight: 800;
+}
+
 .logd_sc .auth-page .left-panel .left-logo {
   width: 160px;
   height: auto;
@@ -14839,7 +14876,7 @@ footer .footer-links a:hover {
   flex: .9;
   justify-content: center;
   align-items: center;
-  padding: 48px 56px;
+  padding: 48px 20px;
   display: flex;
   position: relative;
 }
@@ -14859,15 +14896,41 @@ footer .footer-links a:hover {
   max-width: 380px;
 }
 
+.logd_sc .auth-page .right-panel .right-inner .logo_right {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .logd_sc .auth-page .right-panel .right-inner .logo_right {
+    width: auto;
+    height: 6rem;
+    margin: 0 auto 1rem;
+    display: block;
+    overflow: hidden;
+  }
+
+  .logd_sc .auth-page .right-panel .right-inner .logo_right img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .logd_sc .auth-page .right-panel .welcome-text {
   color: #2f2a3a;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-size: 1.9rem;
   font-weight: 900;
 }
 
 .logd_sc .auth-page .right-panel .welcome-text span {
   color: #e17ca8;
+}
+
+@media (max-width: 991px) {
+  .logd_sc .auth-page .right-panel .welcome-text {
+    text-align: center;
+  }
 }
 
 .logd_sc .auth-page .right-panel .tabs {
@@ -14913,7 +14976,7 @@ footer .footer-links a:hover {
   border-radius: 14px;
   outline: none;
   width: 100%;
-  padding: 14px 18px 14px 48px;
+  padding: 14px 18px 14px 40px;
   font-family: Nunito, sans-serif;
 }
 
@@ -14927,6 +14990,12 @@ footer .footer-links a:hover {
   position: absolute;
   bottom: 14px;
   left: 16px;
+}
+
+.logd_sc .auth-page .right-panel .icon_field {
+  object-fit: contain;
+  width: 1.2rem;
+  height: 2rem;
 }
 
 .logd_sc .auth-page .right-panel .btn-submit {
@@ -14943,6 +15012,64 @@ footer .footer-links a:hover {
   box-shadow: 0 6px 20px #e17ca866;
 }
 
+.logd_sc .auth-page .right-panel .g_fb_btn {
+  gap: 1rem;
+  display: flex;
+}
+
+.logd_sc .auth-page .right-panel .g_fb_btn button {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  flex: 1;
+  justify-content: center;
+  gap: .5rem;
+  padding: 12px;
+  font-weight: 700;
+  transition: all .3s;
+  display: flex;
+}
+
+.logd_sc .auth-page .right-panel .g_fb_btn button img {
+  object-fit: contain;
+  width: 1.5rem;
+  height: 2rem;
+}
+
+.logd_sc .auth-page .right-panel .g_fb_btn button span {
+  align-self: center;
+  width: fit-content;
+}
+
+.logd_sc .auth-page .right-panel .g_fb_btn button:hover {
+  color: #e17ca8;
+  border-color: #e17ca8;
+  transition: all .3s;
+}
+
+.logd_sc .auth-page .right-panel .lst_p {
+  text-align: center;
+  color: #999;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.logd_sc .auth-page .right-panel .lst_p a {
+  color: #e17ca8;
+  text-decoration: none;
+}
+
+.logd_sc .auth-page .right-panel .l_pera {
+  color: #999;
+}
+
+@media (max-width: 991px) {
+  .logd_sc .auth-page .right-panel .l_pera {
+    text-align: center;
+  }
+}
+
 .logd_sc .auth-page .right-panel .role-selector {
   gap: 10px;
   margin-bottom: 15px;
@@ -14954,9 +15081,9 @@ footer .footer-links a:hover {
   cursor: pointer;
   background: #fff;
   border: 2px solid #eee;
-  border-radius: 14px;
+  border-radius: 7px;
   flex: 1;
-  padding: 12px 8px;
+  padding: 6px 8px;
   font-weight: 800;
 }
 
