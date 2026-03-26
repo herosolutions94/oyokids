@@ -473,13 +473,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/index.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/head.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/router.js [client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
 function Login() {
     _s();
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
     const [activeTab, setActiveTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])('login');
     const [role, setRole] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])('teacher');
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -492,12 +495,12 @@ function Login() {
                         children: "Login - Oyo Kids"
                     }, void 0, false, {
                         fileName: "[project]/pages/login.js",
-                        lineNumber: 13,
+                        lineNumber: 15,
                         columnNumber: 17
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/login.js",
-                    lineNumber: 12,
+                    lineNumber: 14,
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -507,14 +510,14 @@ function Login() {
                             className: "blob blob1"
                         }, void 0, false, {
                             fileName: "[project]/pages/login.js",
-                            lineNumber: 19,
+                            lineNumber: 20,
                             columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "blob blob2"
                         }, void 0, false, {
                             fileName: "[project]/pages/login.js",
-                            lineNumber: 20,
+                            lineNumber: 21,
                             columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -528,12 +531,12 @@ function Login() {
                                         className: "left-logo"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/login.js",
-                                        lineNumber: 23,
+                                        lineNumber: 24,
                                         columnNumber: 25
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/login.js",
-                                    lineNumber: 22,
+                                    lineNumber: 23,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -542,7 +545,7 @@ function Login() {
                                         "Where Every Lesson",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 25,
+                                            lineNumber: 26,
                                             columnNumber: 69
                                         }, this),
                                         "Feels Like ",
@@ -550,20 +553,20 @@ function Login() {
                                             children: "Play"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 25,
+                                            lineNumber: 26,
                                             columnNumber: 86
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/login.js",
-                                    lineNumber: 25,
+                                    lineNumber: 26,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "The complete gamified English platform for primary school teachers worldwide"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/login.js",
-                                    lineNumber: 26,
+                                    lineNumber: 27,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -574,7 +577,7 @@ function Login() {
                                             children: "Ages 4–11"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 28,
+                                            lineNumber: 29,
                                             columnNumber: 25
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -582,7 +585,7 @@ function Login() {
                                             children: "Native Audio"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 29,
+                                            lineNumber: 30,
                                             columnNumber: 25
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -590,7 +593,7 @@ function Login() {
                                             children: "Zero Prep"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 30,
+                                            lineNumber: 31,
                                             columnNumber: 25
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -598,25 +601,25 @@ function Login() {
                                             children: "Any Device"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 31,
+                                            lineNumber: 32,
                                             columnNumber: 25
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/login.js",
-                                    lineNumber: 27,
+                                    lineNumber: 28,
                                     columnNumber: 21
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/login.js",
-                            lineNumber: 21,
+                            lineNumber: 22,
                             columnNumber: 17
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/login.js",
-                    lineNumber: 18,
+                    lineNumber: 19,
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -633,12 +636,12 @@ function Login() {
                                         className: "logo_right"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/login.js",
-                                        lineNumber: 40,
+                                        lineNumber: 41,
                                         columnNumber: 25
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/login.js",
-                                    lineNumber: 39,
+                                    lineNumber: 40,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -650,13 +653,13 @@ function Login() {
                                             children: "!"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 43,
+                                            lineNumber: 44,
                                             columnNumber: 78
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/login.js",
-                                    lineNumber: 42,
+                                    lineNumber: 43,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -664,7 +667,7 @@ function Login() {
                                     children: activeTab === 'login' ? 'Sign in to access your classes' : 'Create your teacher account'
                                 }, void 0, false, {
                                     fileName: "[project]/pages/login.js",
-                                    lineNumber: 45,
+                                    lineNumber: 46,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -676,7 +679,7 @@ function Login() {
                                             children: "Log In"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 50,
+                                            lineNumber: 51,
                                             columnNumber: 25
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -685,13 +688,13 @@ function Login() {
                                             children: "Sign Up"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 56,
+                                            lineNumber: 57,
                                             columnNumber: 25
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/login.js",
-                                    lineNumber: 49,
+                                    lineNumber: 50,
                                     columnNumber: 21
                                 }, this),
                                 activeTab === 'login' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -705,7 +708,7 @@ function Login() {
                                                     children: "Email"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 67,
+                                                    lineNumber: 68,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -716,12 +719,12 @@ function Login() {
                                                         className: "icon_field"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/login.js",
-                                                        lineNumber: 69,
+                                                        lineNumber: 70,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 68,
+                                                    lineNumber: 69,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -730,13 +733,13 @@ function Login() {
                                                     placeholder: "name@school.com"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 71,
+                                                    lineNumber: 72,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 66,
+                                            lineNumber: 67,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -747,7 +750,7 @@ function Login() {
                                                     children: "Password"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 74,
+                                                    lineNumber: 75,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -758,12 +761,12 @@ function Login() {
                                                         className: "icon_field"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/login.js",
-                                                        lineNumber: 76,
+                                                        lineNumber: 77,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 75,
+                                                    lineNumber: 76,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -772,27 +775,28 @@ function Login() {
                                                     placeholder: "••••••••"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 78,
+                                                    lineNumber: 79,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 73,
+                                            lineNumber: 74,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             className: "btn-submit",
+                                            onClick: ()=>router.push('/onboarding'),
                                             children: "Log In to Dashboard"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 80,
+                                            lineNumber: 81,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/login.js",
-                                    lineNumber: 65,
+                                    lineNumber: 66,
                                     columnNumber: 25
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "signup-form",
@@ -802,7 +806,7 @@ function Login() {
                                             children: "I am a..."
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 84,
+                                            lineNumber: 85,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -814,7 +818,7 @@ function Login() {
                                                     children: "Teacher"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 86,
+                                                    lineNumber: 87,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -823,7 +827,7 @@ function Login() {
                                                     children: "School"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 87,
+                                                    lineNumber: 88,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -832,13 +836,13 @@ function Login() {
                                                     children: "Parent"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 88,
+                                                    lineNumber: 89,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 85,
+                                            lineNumber: 86,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -849,7 +853,7 @@ function Login() {
                                                     children: "Full Name"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 91,
+                                                    lineNumber: 92,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -860,12 +864,12 @@ function Login() {
                                                         className: "icon_field"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/login.js",
-                                                        lineNumber: 93,
+                                                        lineNumber: 94,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 92,
+                                                    lineNumber: 93,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -874,13 +878,13 @@ function Login() {
                                                     placeholder: "john doe"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 95,
+                                                    lineNumber: 96,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 90,
+                                            lineNumber: 91,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -891,7 +895,7 @@ function Login() {
                                                     children: "Email"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 98,
+                                                    lineNumber: 99,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -902,12 +906,12 @@ function Login() {
                                                         className: "icon_field"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/login.js",
-                                                        lineNumber: 100,
+                                                        lineNumber: 101,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 99,
+                                                    lineNumber: 100,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -916,13 +920,13 @@ function Login() {
                                                     placeholder: "name@school.com"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 102,
+                                                    lineNumber: 103,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 97,
+                                            lineNumber: 98,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -933,7 +937,7 @@ function Login() {
                                                     children: "Password"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 105,
+                                                    lineNumber: 106,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -944,12 +948,12 @@ function Login() {
                                                         className: "icon_field"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/login.js",
-                                                        lineNumber: 107,
+                                                        lineNumber: 108,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 106,
+                                                    lineNumber: 107,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -958,13 +962,13 @@ function Login() {
                                                     placeholder: "••••••••"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 109,
+                                                    lineNumber: 110,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 104,
+                                            lineNumber: 105,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -975,7 +979,7 @@ function Login() {
                                                     children: "Confirm Password"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 112,
+                                                    lineNumber: 113,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -986,12 +990,12 @@ function Login() {
                                                         className: "icon_field"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/login.js",
-                                                        lineNumber: 114,
+                                                        lineNumber: 115,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 113,
+                                                    lineNumber: 114,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1000,13 +1004,13 @@ function Login() {
                                                     placeholder: "••••••••"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 116,
+                                                    lineNumber: 117,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 111,
+                                            lineNumber: 112,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1014,13 +1018,13 @@ function Login() {
                                             children: "Create Free Account"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 118,
+                                            lineNumber: 119,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/login.js",
-                                    lineNumber: 83,
+                                    lineNumber: 84,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1030,27 +1034,27 @@ function Login() {
                                             className: "line"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 123,
+                                            lineNumber: 124,
                                             columnNumber: 25
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: "or continue with"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 124,
+                                            lineNumber: 125,
                                             columnNumber: 25
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "line"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 125,
+                                            lineNumber: 126,
                                             columnNumber: 25
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/login.js",
-                                    lineNumber: 122,
+                                    lineNumber: 123,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1064,7 +1068,7 @@ function Login() {
                                                     className: "icon_field"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 129,
+                                                    lineNumber: 130,
                                                     columnNumber: 33
                                                 }, this),
                                                 " ",
@@ -1072,13 +1076,13 @@ function Login() {
                                                     children: "Google"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 129,
+                                                    lineNumber: 130,
                                                     columnNumber: 102
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 129,
+                                            lineNumber: 130,
                                             columnNumber: 25
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1089,7 +1093,7 @@ function Login() {
                                                     className: "icon_field"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 130,
+                                                    lineNumber: 131,
                                                     columnNumber: 33
                                                 }, this),
                                                 " ",
@@ -1097,53 +1101,57 @@ function Login() {
                                                     children: "Facebook"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/login.js",
-                                                    lineNumber: 130,
+                                                    lineNumber: 131,
                                                     columnNumber: 106
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/login.js",
-                                            lineNumber: 130,
+                                            lineNumber: 131,
                                             columnNumber: 25
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/login.js",
-                                    lineNumber: 128,
+                                    lineNumber: 129,
                                     columnNumber: 21
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/login.js",
-                            lineNumber: 38,
+                            lineNumber: 39,
                             columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "color-strip-bottom"
                         }, void 0, false, {
                             fileName: "[project]/pages/login.js",
-                            lineNumber: 141,
+                            lineNumber: 142,
                             columnNumber: 17
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/login.js",
-                    lineNumber: 37,
+                    lineNumber: 38,
                     columnNumber: 13
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/login.js",
-            lineNumber: 11,
+            lineNumber: 13,
             columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "[project]/pages/login.js",
-        lineNumber: 10,
+        lineNumber: 12,
         columnNumber: 7
     }, this);
 }
-_s(Login, "Na1eyy76SwDCupkBKorHIogtqbQ=");
+_s(Login, "cY7AlFBa2Ug+C16ABuWXLCuJpr0=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"]
+    ];
+});
 _c = Login;
 var _c;
 __turbopack_context__.k.register(_c, "Login");

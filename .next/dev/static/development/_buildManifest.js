@@ -5,6 +5,9 @@ self.__BUILD_MANIFEST = {
   "/login": [
     "static/chunks/pages/login.js"
   ],
+  "/onboarding": [
+    "static/chunks/pages/onboarding.js"
+  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],
@@ -21,6 +24,7 @@ self.__BUILD_MANIFEST = {
     "/homepage/made",
     "/homepage/measurements",
     "/homepage/works",
-    "/login"
+    "/login",
+    "/onboarding"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 export default function Login() {
+    const router = useRouter();
     const [activeTab, setActiveTab] = useState('login');
     const [role, setRole] = useState('teacher');
 
@@ -11,7 +13,6 @@ export default function Login() {
         <div className="auth-page">
             <Head>
                 <title>Login - Oyo Kids</title>
-                {/* Import the specific CSS here or in _app.js */}
             </Head>
 
             {/* LEFT PANEL */}
@@ -77,7 +78,7 @@ export default function Login() {
                                 </span>
                                 <input type="password" className="auth-input" placeholder="••••••••" />
                             </div>
-                            <button className="btn-submit">Log In to Dashboard</button>
+                            <button className="btn-submit" onClick={() => router.push('/onboarding')}>Log In to Dashboard</button>
                         </div>
                     ) : (
                         <div className="signup-form">

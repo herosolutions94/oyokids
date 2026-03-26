@@ -10,6 +10,7 @@ export default function Layout({ children }) {
   const hideFooterPages = [
     "/login",
     "/signup",
+    "/onboarding"
   ];
 
   const hideFooter = hideFooterPages.includes(router.pathname);
