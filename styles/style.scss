@@ -12,6 +12,14 @@ $lilac: #c686b2;
 $purple: #9f7eb2;
 $ink: #2f2a3a;
 $white: #fff;
+
+// Adventure page greens (from the screenshot)
+$green-base: #8dc63f;
+$green-light: #a8d84e;
+$green-dark: #6fa832;
+$orange-cta: #f47920;
+$orange-cta-dark: #d4611a;
+
 ol, ul, dl{
     margin: 0;
 }
@@ -1922,6 +1930,380 @@ footer {
     .onboarding-card {
       width: 82vw;
       padding: 22px 16px;
+    }
+  }
+}
+
+
+
+// =advanture page===
+
+.advanture_wrapper {
+  // ── Page Shell ─────────────────────────────────────────────────────────────
+  .adventure-page {
+    min-height: 100vh;
+    width: 100%;
+    background: radial-gradient(ellipse at 60% 30%, #aad64a 0%, #8dc63f 40%, #7ab535 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  // ── Decorative Blobs ───────────────────────────────────────────────────────
+  .bg-blob {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.13);
+    pointer-events: none;
+
+    &.blob-tl {
+      width: 340px;
+      height: 340px;
+      top: -80px;
+      left: -80px;
+    }
+
+    &.blob-br {
+      width: 420px;
+      height: 420px;
+      bottom: -120px;
+      right: -100px;
+    }
+
+    &.blob-mid {
+      width: 260px;
+      height: 260px;
+      top: 45%;
+      left: 5%;
+    }
+
+    &.blob-sm {
+      width: 180px;
+      height: 180px;
+      top: 10%;
+      right: 12%;
+    }
+  }
+
+  // ── Top Nav ─────────────────────────────────────────────────────────────────
+  .top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    background: transparent;
+    max-width: 130rem;
+    margin: auto;
+  }
+
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .nav-logo {
+    height: 55px;
+    width: auto;
+    cursor: pointer;
+  }
+
+  .nav-badge {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    border: 1.5px solid rgba(255, 255, 255, 0.45);
+    color: #ffffff; // $white
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 5px 14px;
+    border-radius: 50px;
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .icon-btn {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    border: 1.5px solid rgba(255, 255, 255, 0.35);
+    color: #ffffff; // $white
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.35);
+      transform: scale(1.08);
+    }
+  }
+
+  // ── Center Content ──────────────────────────────────────────────────────────
+  .center-content {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    // max-width: 760px;
+    padding: 120px 24px 60px;
+  }
+
+  // ── Adventure Card ──────────────────────────────────────────────────────────
+  .adventure-card {
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 28px 40px;
+    text-align: center;
+    color: #ffffff; // $white
+    width: 340px;
+    position: relative;
+  }
+
+  .card-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.28);
+    border: 2px solid rgba(255, 255, 255, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+  }
+
+  .adventure-label {
+    display: block;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 6px;
+  }
+
+  .adventure-title {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #ffffff; // $white
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 14px;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+  }
+
+  .progress-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .progress-bar {
+    flex: 1;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: #ebfa75; // $lemon
+    border-radius: 50px;
+    transition: width 0.6s ease;
+  }
+
+  .progress-text {
+    font-size: 0.72rem;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.9);
+    min-width: 28px;
+    text-align: right;
+  }
+
+  // ── Lesson Grid ─────────────────────────────────────────────────────────────
+  .lesson-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .lesson-btn {
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(8px);
+    border: 2px solid rgba(255, 255, 255, 0.45);
+    border-radius: 14px;
+    padding: 14px 20px;
+    // width: 160px;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff; // $white
+    transition: transform 0.15s, background 0.2s, box-shadow 0.15s;
+    position: relative;
+
+    &:hover:not(:disabled) {
+      transform: translateY(-3px);
+      background: rgba(255, 255, 255, 0.28);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    &:active:not(:disabled) {
+      transform: translateY(-1px);
+    }
+  }
+
+  .lesson-locked {
+    opacity: 0.6;
+    cursor: not-allowed;
+
+    &:hover {
+      transform: none !important;
+      background: rgba(255, 255, 255, 0.18) !important;
+      box-shadow: none !important;
+    }
+  }
+
+  .lock-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    opacity: 0.7;
+  }
+
+  .lesson-num { // Renamed from lessonLabel to match component
+    display: block;
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 4px;
+  }
+
+  .lesson-title {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #ffffff; // $white
+    line-height: 1.2;
+  }
+
+  // ── Cultural Lesson Button ──────────────────────────────────────────────────
+  .cultural-btn {
+    // Replaced $orange-cta with #f9c575 (Peach)
+    background: linear-gradient(162deg, $orange-cta, #d77f1a); 
+    border: none;
+    border-radius: 50px;
+    padding: 14px 42px;
+    cursor: pointer;
+    color: #ffffff; // $white
+    text-align: center;
+    box-shadow: 0 6px 0 #d4a04d, 0 10px 24px rgba(249, 197, 117, 0.35);
+    transition: transform 0.15s, box-shadow 0.15s;
+    min-width: 220px;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 0 #d4a04d, 0 14px 28px rgba(249, 197, 117, 0.4);
+    }
+
+    &:active {
+      transform: translateY(2px);
+      box-shadow: 0 4px 0 #d4a04d, 0 6px 16px rgba(249, 197, 117, 0.3);
+    }
+  }
+
+  .cultural-label {
+    display: block;
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.88);
+    margin-bottom: 2px;
+  }
+
+  .cultural-title {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #ffffff; // $white
+  }
+
+  // ── Notebook Button ─────────────────────────────────────────────────────────
+  .notebook-btn {
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(8px);
+    border: 1.5px solid rgba(255, 255, 255, 0.4);
+    color: #ffffff; // $white
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 100;
+    transition: background 0.2s, transform 0.15s;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.35);
+      transform: scale(1.08);
+    }
+  }
+
+  // ── Responsive ──────────────────────────────────────────────────────────────
+  @media (max-width: 600px) {
+    .lesson-grid {
+      gap: 10px;
+    }
+
+    .lesson-btn {
+      width: 140px;
+      padding: 12px 14px;
+    }
+
+    .adventure-card {
+      width: 100%;
+      max-width: 320px;
+      padding: 22px 24px;
+    }
+
+    .adventure-title {
+      font-size: 1.6rem;
+    }
+
+    .center-content {
+      padding-top: 90px;
     }
   }
 }

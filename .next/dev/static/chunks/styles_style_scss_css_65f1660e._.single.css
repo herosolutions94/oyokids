@@ -2211,4 +2211,365 @@ footer .footer-links a:hover {
   }
 }
 
+.advanture_wrapper .adventure-page {
+  background: radial-gradient(at 60% 30%, #aad64a 0%, #8dc63f 40%, #7ab535 100%);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.advanture_wrapper .bg-blob {
+  pointer-events: none;
+  background: #ffffff21;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.advanture_wrapper .bg-blob.blob-tl {
+  width: 340px;
+  height: 340px;
+  top: -80px;
+  left: -80px;
+}
+
+.advanture_wrapper .bg-blob.blob-br {
+  width: 420px;
+  height: 420px;
+  bottom: -120px;
+  right: -100px;
+}
+
+.advanture_wrapper .bg-blob.blob-mid {
+  width: 260px;
+  height: 260px;
+  top: 45%;
+  left: 5%;
+}
+
+.advanture_wrapper .bg-blob.blob-sm {
+  width: 180px;
+  height: 180px;
+  top: 10%;
+  right: 12%;
+}
+
+.advanture_wrapper .top-nav {
+  z-index: 200;
+  background: none;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 130rem;
+  margin: auto;
+  padding: 12px 20px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.advanture_wrapper .nav-left {
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+
+.advanture_wrapper .nav-logo {
+  cursor: pointer;
+  width: auto;
+  height: 55px;
+}
+
+.advanture_wrapper .nav-badge {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  background: #ffffff40;
+  border: 1.5px solid #ffffff73;
+  border-radius: 50px;
+  padding: 5px 14px;
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.advanture_wrapper .nav-right {
+  align-items: center;
+  gap: 6px;
+  display: flex;
+}
+
+.advanture_wrapper .icon-btn {
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  cursor: pointer;
+  background: #fff3;
+  border: 1.5px solid #ffffff59;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  transition: background .2s, transform .15s;
+  display: flex;
+}
+
+.advanture_wrapper .icon-btn:hover {
+  background: #ffffff59;
+  transform: scale(1.08);
+}
+
+.advanture_wrapper .center-content {
+  z-index: 10;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  padding: 120px 24px 60px;
+  display: flex;
+  position: relative;
+}
+
+.advanture_wrapper .adventure-card {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  color: #fff;
+  background: #ffffff2e;
+  border: 2px solid #ffffff80;
+  border-radius: 20px;
+  width: 340px;
+  padding: 28px 40px;
+  position: relative;
+}
+
+.advanture_wrapper .card-icon {
+  background: #ffffff47;
+  border: 2px solid #ffffff8c;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  margin: 0 auto 10px;
+  display: flex;
+}
+
+.advanture_wrapper .adventure-label {
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: #ffffffd9;
+  margin-bottom: 6px;
+  font-size: .68rem;
+  font-weight: 800;
+  display: block;
+}
+
+.advanture_wrapper .adventure-title {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  text-shadow: 0 2px 12px #0000001f;
+  margin-bottom: 14px;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.advanture_wrapper .progress-wrap {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.advanture_wrapper .progress-bar {
+  background: #ffffff4d;
+  border-radius: 50px;
+  flex: 1;
+  height: 5px;
+  overflow: hidden;
+}
+
+.advanture_wrapper .progress-fill {
+  background: #ebfa75;
+  border-radius: 50px;
+  height: 100%;
+  transition: width .6s;
+}
+
+.advanture_wrapper .progress-text {
+  color: #ffffffe6;
+  text-align: right;
+  min-width: 28px;
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.advanture_wrapper .lesson-grid {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  display: flex;
+}
+
+.advanture_wrapper .lesson-btn {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background: #ffffff2e;
+  border: 2px solid #ffffff73;
+  border-radius: 14px;
+  padding: 14px 20px;
+  transition: transform .15s, background .2s, box-shadow .15s;
+  position: relative;
+}
+
+.advanture_wrapper .lesson-btn:hover:not(:disabled) {
+  background: #ffffff47;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px #0000001a;
+}
+
+.advanture_wrapper .lesson-btn:active:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.advanture_wrapper .lesson-locked {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+.advanture_wrapper .lesson-locked:hover {
+  box-shadow: none !important;
+  background: #ffffff2e !important;
+  transform: none !important;
+}
+
+.advanture_wrapper .lock-icon {
+  opacity: .7;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.advanture_wrapper .lesson-num {
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #fffc;
+  margin-bottom: 4px;
+  font-size: .62rem;
+  font-weight: 800;
+  display: block;
+}
+
+.advanture_wrapper .lesson-title {
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  color: #fff;
+  font-size: .82rem;
+  font-weight: 900;
+  line-height: 1.2;
+  display: block;
+}
+
+.advanture_wrapper .cultural-btn {
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(162deg, #f47920, #d77f1a);
+  border: none;
+  border-radius: 50px;
+  min-width: 220px;
+  padding: 14px 42px;
+  transition: transform .15s, box-shadow .15s;
+  box-shadow: 0 6px #d4a04d, 0 10px 24px #f9c57559;
+}
+
+.advanture_wrapper .cultural-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px #d4a04d, 0 14px 28px #f9c57566;
+}
+
+.advanture_wrapper .cultural-btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 4px #d4a04d, 0 6px 16px #f9c5754d;
+}
+
+.advanture_wrapper .cultural-label {
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: #ffffffe0;
+  margin-bottom: 2px;
+  font-size: .62rem;
+  font-weight: 800;
+  display: block;
+}
+
+.advanture_wrapper .cultural-title {
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 900;
+  display: block;
+}
+
+.advanture_wrapper .notebook-btn {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  cursor: pointer;
+  z-index: 100;
+  background: #ffffff38;
+  border: 1.5px solid #fff6;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  transition: background .2s, transform .15s;
+  display: flex;
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+}
+
+.advanture_wrapper .notebook-btn:hover {
+  background: #ffffff59;
+  transform: scale(1.08);
+}
+
+@media (max-width: 600px) {
+  .advanture_wrapper .lesson-grid {
+    gap: 10px;
+  }
+
+  .advanture_wrapper .lesson-btn {
+    width: 140px;
+    padding: 12px 14px;
+  }
+
+  .advanture_wrapper .adventure-card {
+    width: 100%;
+    max-width: 320px;
+    padding: 22px 24px;
+  }
+
+  .advanture_wrapper .adventure-title {
+    font-size: 1.6rem;
+  }
+
+  .advanture_wrapper .center-content {
+    padding-top: 90px;
+  }
+}
+
 /*# sourceMappingURL=styles_style_scss_css_65f1660e._.single.css.map*/
