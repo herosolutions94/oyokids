@@ -4,12 +4,14 @@ import Faq from "@/components/Faq";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
 import Pricing from "@/components/Pricing";
+import Team from "@/components/team";
 import Testimonials from "@/components/testimonials";
 import TrustBar from "@/components/TrustBar";
 import VocabPreview from "@/components/VocabPreview";
 import React from "react";
 
 const Index = () => {
+    
   return (
     <main>
       <section class="hero">
@@ -48,6 +50,7 @@ const Index = () => {
       <VocabPreview />
       <ComparisonTable />
       <Pricing />
+     <Team />
       <Testimonials />
       <Faq />
       <CtaSection />
