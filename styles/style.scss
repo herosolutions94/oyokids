@@ -3252,7 +3252,9 @@ footer {
     display: flex;
     flex-direction: column;
   }
-
+.form_group.mt_1{
+  margin-top: 1rem;
+}
   .form_label {
     font-size: 0.72rem;
     font-weight: 900;

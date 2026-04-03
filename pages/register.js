@@ -170,14 +170,14 @@ export default function Register() {
                   </div>
                 </div>
                 <div className="form_row">
-                  <div className="form_group">
+                  <div className="form_group mt_1">
                     <label className="form_label">Email Address <span className="req">*</span></label>
                     <div className="input_wrap">
                       <span className="input_icon">✉️</span>
                       <input type="email" name="email" className="reg_input" placeholder="jane@school.com" value={teacherForm.email} onChange={handleTeacherChange} />
                     </div>
                   </div>
-                  <div className="form_group">
+                  <div className="form_group mt_1">
                     <label className="form_label">Phone Number</label>
                     <div className="input_wrap">
                       <span className="input_icon">📞</span>

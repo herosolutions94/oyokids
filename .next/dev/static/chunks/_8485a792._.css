@@ -16869,6 +16869,10 @@ footer .footer-links a:hover {
   display: flex;
 }
 
+.reg_sc .form_group.mt_1 {
+  margin-top: 1rem;
+}
+
 .reg_sc .form_label {
   text-transform: uppercase;
   letter-spacing: .8px;
