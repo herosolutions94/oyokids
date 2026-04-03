@@ -71,7 +71,7 @@ export default function Header() {
               <Link href="/login" className="nav-login" onClick={closeMenu}>
                 Log In
               </Link>
-              <Link href="/login" className="nav-signup" onClick={closeMenu}>
+              <Link href="/register" className="nav-signup" onClick={closeMenu}>
                 Start Free
               </Link>
             </div>
