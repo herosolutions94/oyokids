@@ -1,5 +1,5 @@
-[00:00:02.020] Server  LOG     ✓ Ready in 1535ms
-[00:00:07.055] Server  WARN    ⚠ ./styles/style.scss
+[00:00:03.886] Server  LOG     ✓ Ready in 3.4s
+[00:00:05.125] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
 Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
@@ -13,24 +13,24 @@ styles/style.scss 1:9  root stylesheet
 
 
 
-[00:00:07.056] Server  WARN    ⚠ ./styles/style.scss
+[00:00:05.125] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
-SassWarning: Deprecation Warning on line 1662, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1662:47:
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
 Use color.adjust instead.
 
 More info and automated migrator: https://sass-lang.com/d/import
 
-1662 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
 
 
-styles/style.scss 1663:48  root stylesheet
+styles/style.scss 1685:48  root stylesheet
 
 
 
-[00:00:07.056] Server  WARN    ⚠ ./styles/style.scss
+[00:00:05.126] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
-SassWarning: Deprecation Warning on line 1662, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1662:47:
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
 darken() is deprecated. Suggestions:
 
 color.scale($color, $lightness: -18.8307692308%)
@@ -38,3048 +38,48 @@ color.adjust($color, $lightness: -12%)
 
 More info: https://sass-lang.com/d/color-functions
 
-1662 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
 
 
-styles/style.scss 1663:48  root stylesheet
+styles/style.scss 1685:48  root stylesheet
 
 
 
-[00:00:07.057] Server  WARN    ⚠ ./styles/style.scss
+[00:00:05.126] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
-SassWarning: Deprecation Warning on line 1791, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1791:22:
+SassWarning: Deprecation Warning on line 1813, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1813:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
 Use color.mix instead.
 
 More info and automated migrator: https://sass-lang.com/d/import
 
-1791 |           background: mix($lilac, $white, 15%);
+1813 |           background: mix($lilac, $white, 15%);
 
 
-styles/style.scss 1792:23  root stylesheet
+styles/style.scss 1814:23  root stylesheet
 
 
 
-[00:00:07.057] Server  WARN    ⚠ ./styles/style.scss
+[00:00:05.126] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
-SassWarning: Deprecation Warning on line 1796, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1796:22:
+SassWarning: Deprecation Warning on line 1818, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1818:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
 Use color.mix instead.
 
 More info and automated migrator: https://sass-lang.com/d/import
 
-1796 |           background: mix($lilac, $white, 22%);
+1818 |           background: mix($lilac, $white, 22%);
 
 
-styles/style.scss 1797:23  root stylesheet
+styles/style.scss 1819:23  root stylesheet
 
 
 
-[00:00:07.192] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
-[00:00:07.578] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[00:00:07.578] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1662, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1662:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1662 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1663:48  root stylesheet
-
-
-
-[00:00:07.578] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1662, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1662:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1662 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1663:48  root stylesheet
-
-
-
-[00:00:07.579] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1791, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1791:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1791 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1792:23  root stylesheet
-
-
-
-[00:00:07.579] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1796, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1796:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1796 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1797:23  root stylesheet
-
-
-
-[00:00:08.092] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:00:51.990] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[00:00:51.990] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1662, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1662:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1662 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1663:48  root stylesheet
-
-
-
-[00:00:51.990] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1662, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1662:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1662 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1663:48  root stylesheet
-
-
-
-[00:00:51.990] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1791, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1791:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1791 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1792:23  root stylesheet
-
-
-
-[00:00:51.991] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1796, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1796:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1796 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1797:23  root stylesheet
-
-
-
-[00:00:52.317] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[00:00:52.317] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1662, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1662:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1662 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1663:48  root stylesheet
-
-
-
-[00:00:52.317] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1662, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1662:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1662 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1663:48  root stylesheet
-
-
-
-[00:00:52.317] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1791, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1791:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1791 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1792:23  root stylesheet
-
-
-
-[00:00:52.317] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1796, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1796:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1796 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1797:23  root stylesheet
-
-
-
-[00:11:54.508] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[00:11:54.508] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1662, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1662:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1662 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1663:48  root stylesheet
-
-
-
-[00:11:54.508] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1662, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1662:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1662 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1663:48  root stylesheet
-
-
-
-[00:11:54.508] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1791, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1791:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1791 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1792:23  root stylesheet
-
-
-
-[00:11:54.509] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1796, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1796:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1796 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1797:23  root stylesheet
-
-
-
-[00:19:01.940] Server  LOG     ✓ Compiled in 201ms
-[00:38:02.666] Server  LOG     ✓ Compiled in 444ms
-[00:38:03.668] Browser ERROR   ./styles/style.scss
-Error evaluating Node.js code
-Error: Undefined variable.
-     ╷
-2586 │     background: linear-gradient(135deg, $stack-start, $stack-end);
-     │                                         ^^^^^^^^^^^^
-     ╵
-  styles/style.scss 2586:41  root stylesheet
-Caused by: Error: Undefined variable.
-     ╷
-2586 │     background: linear-gradient(135deg, $stack-start, $stack-end);
-     │                                         ^^^^^^^^^^^^
-     ╵
-  styles/style.scss 2586:41  root stylesheet
-    [at Object.wrapException (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:2337:47)]
-    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91300:23]
-    [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
-    [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
-    [at Object._asyncStartSync (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:4969:20)]
-    [at _EvaluateVisitor2.visitVariableExpression$body$_EvaluateVisitor0 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91306:16)]
-    [at _EvaluateVisitor2.visitVariableExpression$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91280:19)]
-    [at VariableExpression0.accept$1$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:129386:22)]
-    [at VariableExpression0.accept$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:129389:19)]
-    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:94000:31]
-[00:39:04.779] Browser ERROR   ./styles/style.scss
-Error evaluating Node.js code
-Error: Undefined variable.
-     ╷
-2586 │     background: linear-gradient(135deg, $stack-start, $stack-end);
-     │                                         ^^^^^^^^^^^^
-     ╵
-  styles/style.scss 2586:41  root stylesheet
-Caused by: Error: Undefined variable.
-     ╷
-2586 │     background: linear-gradient(135deg, $stack-start, $stack-end);
-     │                                         ^^^^^^^^^^^^
-     ╵
-  styles/style.scss 2586:41  root stylesheet
-    [at Object.wrapException (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:2337:47)]
-    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91300:23]
-    [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
-    [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
-    [at Object._asyncStartSync (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:4969:20)]
-    [at _EvaluateVisitor2.visitVariableExpression$body$_EvaluateVisitor0 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91306:16)]
-    [at _EvaluateVisitor2.visitVariableExpression$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91280:19)]
-    [at VariableExpression0.accept$1$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:129386:22)]
-    [at VariableExpression0.accept$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:129389:19)]
-    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:94000:31]
-[00:39:04.779] Browser ERROR   ./styles/style.scss
-Error evaluating Node.js code
-Error: Undefined variable.
-     ╷
-2586 │     background: linear-gradient(135deg, $stack-start, $stack-end);
-     │                                         ^^^^^^^^^^^^
-     ╵
-  styles/style.scss 2586:41  root stylesheet
-Caused by: Error: Undefined variable.
-     ╷
-2586 │     background: linear-gradient(135deg, $stack-start, $stack-end);
-     │                                         ^^^^^^^^^^^^
-     ╵
-  styles/style.scss 2586:41  root stylesheet
-    [at Object.wrapException (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:2337:47)]
-    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91300:23]
-    [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
-    [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
-    [at Object._asyncStartSync (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:4969:20)]
-    [at _EvaluateVisitor2.visitVariableExpression$body$_EvaluateVisitor0 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91306:16)]
-    [at _EvaluateVisitor2.visitVariableExpression$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91280:19)]
-    [at VariableExpression0.accept$1$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:129386:22)]
-    [at VariableExpression0.accept$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:129389:19)]
-    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:94000:31]
-[00:40:17.096] Server  LOG     ✓ Compiled in 76ms
-[00:40:17.667] Browser ERROR   ./styles/style.scss
-Error evaluating Node.js code
-Error: Undefined variable.
-     ╷
-2586 │     background: linear-gradient(135deg, $stack-start, $stack-end);
-     │                                         ^^^^^^^^^^^^
-     ╵
-  styles/style.scss 2586:41  root stylesheet
-Caused by: Error: Undefined variable.
-     ╷
-2586 │     background: linear-gradient(135deg, $stack-start, $stack-end);
-     │                                         ^^^^^^^^^^^^
-     ╵
-  styles/style.scss 2586:41  root stylesheet
-    [at Object.wrapException (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:2337:47)]
-    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91300:23]
-    [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
-    [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
-    [at Object._asyncStartSync (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:4969:20)]
-    [at _EvaluateVisitor2.visitVariableExpression$body$_EvaluateVisitor0 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91306:16)]
-    [at _EvaluateVisitor2.visitVariableExpression$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91280:19)]
-    [at VariableExpression0.accept$1$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:129386:22)]
-    [at VariableExpression0.accept$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:129389:19)]
-    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:94000:31]
-[00:40:28.035] Server  LOG     ✓ Compiled in 23ms
-[00:40:28.666] Browser ERROR   ./styles/style.scss
-Error evaluating Node.js code
-Error: Undefined variable.
-     ╷
-2586 │     background: linear-gradient(135deg, $stack-start, $stack-end);
-     │                                         ^^^^^^^^^^^^
-     ╵
-  styles/style.scss 2586:41  root stylesheet
-Caused by: Error: Undefined variable.
-     ╷
-2586 │     background: linear-gradient(135deg, $stack-start, $stack-end);
-     │                                         ^^^^^^^^^^^^
-     ╵
-  styles/style.scss 2586:41  root stylesheet
-    [at Object.wrapException (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:2337:47)]
-    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91300:23]
-    [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
-    [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
-    [at Object._asyncStartSync (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:4969:20)]
-    [at _EvaluateVisitor2.visitVariableExpression$body$_EvaluateVisitor0 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91306:16)]
-    [at _EvaluateVisitor2.visitVariableExpression$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91280:19)]
-    [at VariableExpression0.accept$1$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:129386:22)]
-    [at VariableExpression0.accept$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:129389:19)]
-    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:94000:31]
-[00:42:09.667] Browser ERROR   ./styles/style.scss
-Error evaluating Node.js code
-Error: Undefined variable.
-     ╷
-2695 │   background: linear-gradient(135deg, $purple-start, $purple-end);
-     │                                       ^^^^^^^^^^^^^
-     ╵
-  styles/style.scss 2695:39  root stylesheet
-Caused by: Error: Undefined variable.
-     ╷
-2695 │   background: linear-gradient(135deg, $purple-start, $purple-end);
-     │                                       ^^^^^^^^^^^^^
-     ╵
-  styles/style.scss 2695:39  root stylesheet
-    [at Object.wrapException (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:2337:47)]
-    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91300:23]
-    [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
-    [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
-    [at Object._asyncStartSync (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:4969:20)]
-    [at _EvaluateVisitor2.visitVariableExpression$body$_EvaluateVisitor0 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91306:16)]
-    [at _EvaluateVisitor2.visitVariableExpression$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91280:19)]
-    [at VariableExpression0.accept$1$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:129386:22)]
-    [at VariableExpression0.accept$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:129389:19)]
-    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:94000:31]
-[00:42:32.666] Browser ERROR   ./styles/style.scss
-Error evaluating Node.js code
-Error: Undefined variable.
-     ╷
-2832 │   box-shadow: 0 4px 0 $orange-shadow;
-     │                       ^^^^^^^^^^^^^^
-     ╵
-  styles/style.scss 2832:23  root stylesheet
-Caused by: Error: Undefined variable.
-     ╷
-2832 │   box-shadow: 0 4px 0 $orange-shadow;
-     │                       ^^^^^^^^^^^^^^
-     ╵
-  styles/style.scss 2832:23  root stylesheet
-    [at Object.wrapException (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:2337:47)]
-    [at /Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91300:23]
-    [at _wrapJsFunctionForAsync_closure.$protected (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:5005:15)]
-    [at _wrapJsFunctionForAsync_closure.call$2 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:38686:12)]
-    [at Object._asyncStartSync (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:4969:20)]
-    [at _EvaluateVisitor2.visitVariableExpression$body$_EvaluateVisitor0 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91306:16)]
-    [at _EvaluateVisitor2.visitVariableExpression$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:91280:19)]
-    [at VariableExpression0.accept$1$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:129386:22)]
-    [at VariableExpression0.accept$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:129389:19)]
-    [at _EvaluateVisitor_visitListExpression_closure2.call$1 (/Users/imac/Desktop/next-projects/oyokids/node_modules/sass/sass.dart.js:97120:25)]
-[00:42:58.456] Server  LOG     ✓ Compiled in 1571ms
-[00:43:13.606] Server  LOG     ✓ Compiled in 20ms
-[00:43:19.763] Server  LOG     ✓ Compiled in 8ms
-[00:43:38.616] Server  LOG     ✓ Compiled in 22ms
-[00:44:58.297] Server  LOG     ✓ Compiled in 13ms
-[00:46:11.285] Server  LOG     ✓ Compiled in 43ms
-[00:48:25.838] Server  LOG     ✓ Compiled in 12ms
-[00:52:47.672] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[00:52:47.672] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1662, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1662:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1662 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1663:48  root stylesheet
-
-
-
-[00:52:47.673] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1662, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1662:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1662 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1663:48  root stylesheet
-
-
-
-[00:52:47.673] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1791, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1791:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1791 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1792:23  root stylesheet
-
-
-
-[00:52:47.673] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1796, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1796:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1796 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1797:23  root stylesheet
-
-
-
-[00:54:46.904] Server  ERROR   ⨯ ./pages/adventure.js:5:1
-Module not found: Can't resolve '@/components/game-time-page'
-  3 | import AdventureNav from '@/components/adventure-nav';
-  4 | import VocabularyPage from '@/components/vocabulary-page';
-> 5 | import GameTimePage from '@/components/game-time-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | const lessons = [
-  8 |   { id: 1, label: 'Lesson 1', title: 'The Classroom', locked: false },
-
-Import map: aliased to relative './components/game-time-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:46.906] Server  ERROR   ⨯ ./pages/adventure.js:5:1
-Module not found: Can't resolve '@/components/game-time-page'
-  3 | import AdventureNav from '@/components/adventure-nav';
-  4 | import VocabularyPage from '@/components/vocabulary-page';
-> 5 | import GameTimePage from '@/components/game-time-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | const lessons = [
-  8 |   { id: 1, label: 'Lesson 1', title: 'The Classroom', locked: false },
-
-Import map: aliased to relative './components/game-time-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:46.915] Server  ERROR   ⨯ ./pages/adventure.js:5:1
-Module not found: Can't resolve '@/components/game-time-page'
-  3 | import AdventureNav from '@/components/adventure-nav';
-  4 | import VocabularyPage from '@/components/vocabulary-page';
-> 5 | import GameTimePage from '@/components/game-time-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | const lessons = [
-  8 |   { id: 1, label: 'Lesson 1', title: 'The Classroom', locked: false },
-
-Import map: aliased to relative './components/game-time-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:46.917] Server  ERROR   ⨯ ./pages/adventure.js:5:1
-Module not found: Can't resolve '@/components/game-time-page'
-  3 | import AdventureNav from '@/components/adventure-nav';
-  4 | import VocabularyPage from '@/components/vocabulary-page';
-> 5 | import GameTimePage from '@/components/game-time-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | const lessons = [
-  8 |   { id: 1, label: 'Lesson 1', title: 'The Classroom', locked: false },
-
-Import map: aliased to relative './components/game-time-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:46.919] Server  ERROR   ⨯ ./pages/adventure.js:4:1
-Module not found: Can't resolve '@/components/vocabulary-page'
-  2 | import { useRouter } from 'next/router';
-  3 | import AdventureNav from '@/components/adventure-nav';
-> 4 | import VocabularyPage from '@/components/vocabulary-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 | import GameTimePage from '@/components/game-time-page';
-  6 |
-  7 | const lessons = [
-
-Import map: aliased to relative './components/vocabulary-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:46.921] Server  ERROR   ⨯ ./pages/adventure.js:4:1
-Module not found: Can't resolve '@/components/vocabulary-page'
-  2 | import { useRouter } from 'next/router';
-  3 | import AdventureNav from '@/components/adventure-nav';
-> 4 | import VocabularyPage from '@/components/vocabulary-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 | import GameTimePage from '@/components/game-time-page';
-  6 |
-  7 | const lessons = [
-
-Import map: aliased to relative './components/vocabulary-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:46.925] Server  ERROR   ⨯ ./pages/adventure.js:4:1
-Module not found: Can't resolve '@/components/vocabulary-page'
-  2 | import { useRouter } from 'next/router';
-  3 | import AdventureNav from '@/components/adventure-nav';
-> 4 | import VocabularyPage from '@/components/vocabulary-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 | import GameTimePage from '@/components/game-time-page';
-  6 |
-  7 | const lessons = [
-
-Import map: aliased to relative './components/vocabulary-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:46.928] Server  ERROR   ⨯ ./pages/adventure.js:4:1
-Module not found: Can't resolve '@/components/vocabulary-page'
-  2 | import { useRouter } from 'next/router';
-  3 | import AdventureNav from '@/components/adventure-nav';
-> 4 | import VocabularyPage from '@/components/vocabulary-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 | import GameTimePage from '@/components/game-time-page';
-  6 |
-  7 | const lessons = [
-
-Import map: aliased to relative './components/vocabulary-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:46.994] Server  ERROR   ⨯ ./pages/adventure.js:5:1
-Module not found: Can't resolve '@/components/game-time-page'
-  3 | import AdventureNav from '@/components/adventure-nav';
-  4 | import VocabularyPage from '@/components/vocabulary-page';
-> 5 | import GameTimePage from '@/components/game-time-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | const lessons = [
-  8 |   { id: 1, label: 'Lesson 1', title: 'The Classroom', locked: false },
-
-Import map: aliased to relative './components/game-time-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:46.999] Server  ERROR   ⨯ ./pages/adventure.js:5:1
-Module not found: Can't resolve '@/components/game-time-page'
-  3 | import AdventureNav from '@/components/adventure-nav';
-  4 | import VocabularyPage from '@/components/vocabulary-page';
-> 5 | import GameTimePage from '@/components/game-time-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | const lessons = [
-  8 |   { id: 1, label: 'Lesson 1', title: 'The Classroom', locked: false },
-
-Import map: aliased to relative './components/game-time-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:47.015] Server  ERROR   ⨯ ./pages/adventure.js:5:1
-Module not found: Can't resolve '@/components/game-time-page'
-  3 | import AdventureNav from '@/components/adventure-nav';
-  4 | import VocabularyPage from '@/components/vocabulary-page';
-> 5 | import GameTimePage from '@/components/game-time-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | const lessons = [
-  8 |   { id: 1, label: 'Lesson 1', title: 'The Classroom', locked: false },
-
-Import map: aliased to relative './components/game-time-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:47.018] Server  ERROR   ⨯ ./pages/adventure.js:5:1
-Module not found: Can't resolve '@/components/game-time-page'
-  3 | import AdventureNav from '@/components/adventure-nav';
-  4 | import VocabularyPage from '@/components/vocabulary-page';
-> 5 | import GameTimePage from '@/components/game-time-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | const lessons = [
-  8 |   { id: 1, label: 'Lesson 1', title: 'The Classroom', locked: false },
-
-Import map: aliased to relative './components/game-time-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:47.031] Server  ERROR   ⨯ ./pages/adventure.js:4:1
-Module not found: Can't resolve '@/components/vocabulary-page'
-  2 | import { useRouter } from 'next/router';
-  3 | import AdventureNav from '@/components/adventure-nav';
-> 4 | import VocabularyPage from '@/components/vocabulary-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 | import GameTimePage from '@/components/game-time-page';
-  6 |
-  7 | const lessons = [
-
-Import map: aliased to relative './components/vocabulary-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:47.033] Server  ERROR   ⨯ ./pages/adventure.js:4:1
-Module not found: Can't resolve '@/components/vocabulary-page'
-  2 | import { useRouter } from 'next/router';
-  3 | import AdventureNav from '@/components/adventure-nav';
-> 4 | import VocabularyPage from '@/components/vocabulary-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 | import GameTimePage from '@/components/game-time-page';
-  6 |
-  7 | const lessons = [
-
-Import map: aliased to relative './components/vocabulary-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:47.037] Server  ERROR   ⨯ ./pages/adventure.js:4:1
-Module not found: Can't resolve '@/components/vocabulary-page'
-  2 | import { useRouter } from 'next/router';
-  3 | import AdventureNav from '@/components/adventure-nav';
-> 4 | import VocabularyPage from '@/components/vocabulary-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 | import GameTimePage from '@/components/game-time-page';
-  6 |
-  7 | const lessons = [
-
-Import map: aliased to relative './components/vocabulary-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:47.040] Server  ERROR   ⨯ ./pages/adventure.js:4:1
-Module not found: Can't resolve '@/components/vocabulary-page'
-  2 | import { useRouter } from 'next/router';
-  3 | import AdventureNav from '@/components/adventure-nav';
-> 4 | import VocabularyPage from '@/components/vocabulary-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 | import GameTimePage from '@/components/game-time-page';
-  6 |
-  7 | const lessons = [
-
-Import map: aliased to relative './components/vocabulary-page' inside of [project]/
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:54:47.043] Server  LOG     ✓ Compiled in 185ms
-[00:54:47.978] Browser ERROR   ./pages/adventure.js:5:1
-Module not found: Can't resolve '@/components/game-time-page'
-  3 | import AdventureNav from '@/components/adventure-nav';
-  4 | import VocabularyPage from '@/components/vocabulary-page';
-> 5 | import GameTimePage from '@/components/game-time-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | const lessons = [
-  8 |   { id: 1, label: 'Lesson 1', title: 'The Classroom', locked: false },
-
-Import map: aliased to relative './components/game-time-page' inside of [project]/
-
-https://nextjs.org/docs/messages/module-not-found
-[00:54:47.978] Browser ERROR   ./pages/adventure.js:4:1
-Module not found: Can't resolve '@/components/vocabulary-page'
-  2 | import { useRouter } from 'next/router';
-  3 | import AdventureNav from '@/components/adventure-nav';
-> 4 | import VocabularyPage from '@/components/vocabulary-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 | import GameTimePage from '@/components/game-time-page';
-  6 |
-  7 | const lessons = [
-
-Import map: aliased to relative './components/vocabulary-page' inside of [project]/
-
-https://nextjs.org/docs/messages/module-not-found
-[00:55:18.978] Browser ERROR   ./pages/adventure.js:5:1
-Module not found: Can't resolve '@/components/game-time-page'
-  3 | import AdventureNav from '@/components/adventure-nav';
-  4 | import VocabularyPage from '@/components/vocabulary-page';
-> 5 | import GameTimePage from '@/components/game-time-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | const lessons = [
-  8 |   { id: 1, label: 'Lesson 1', title: 'The Classroom', locked: false },
-
-Import map: aliased to relative './components/game-time-page' inside of [project]/
-
-https://nextjs.org/docs/messages/module-not-found
-[00:55:18.978] Browser ERROR   ./pages/adventure.js:4:1
-Module not found: Can't resolve '@/components/vocabulary-page'
-  2 | import { useRouter } from 'next/router';
-  3 | import AdventureNav from '@/components/adventure-nav';
-> 4 | import VocabularyPage from '@/components/vocabulary-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 | import GameTimePage from '@/components/game-time-page';
-  6 |
-  7 | const lessons = [
-
-Import map: aliased to relative './components/vocabulary-page' inside of [project]/
-
-https://nextjs.org/docs/messages/module-not-found
-[00:55:20.390] Server  LOG     ✓ Compiled in 148ms
-[00:55:20.978] Browser ERROR   ./pages/adventure.js:5:1
-Module not found: Can't resolve '@/components/game-time-page'
-  3 | import AdventureNav from '@/components/adventure-nav';
-  4 | import VocabularyPage from '@/components/vocabulary-page';
-> 5 | import GameTimePage from '@/components/game-time-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  6 |
-  7 | const lessons = [
-  8 |   { id: 1, label: 'Lesson 1', title: 'The Classroom', locked: false },
-
-Import map: aliased to relative './components/game-time-page' inside of [project]/
-
-https://nextjs.org/docs/messages/module-not-found
-[00:55:20.978] Browser ERROR   ./pages/adventure.js:4:1
-Module not found: Can't resolve '@/components/vocabulary-page'
-  2 | import { useRouter } from 'next/router';
-  3 | import AdventureNav from '@/components/adventure-nav';
-> 4 | import VocabularyPage from '@/components/vocabulary-page';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 | import GameTimePage from '@/components/game-time-page';
-  6 |
-  7 | const lessons = [
-
-Import map: aliased to relative './components/vocabulary-page' inside of [project]/
-
-https://nextjs.org/docs/messages/module-not-found
-[00:55:41.987] Server  LOG     ✓ Compiled in 55ms
-[00:55:48.469] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[00:55:48.469] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[00:55:48.469] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[00:55:48.470] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[00:55:48.470] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[00:55:48.812] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[00:55:48.813] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[00:55:48.814] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[00:55:48.814] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[00:55:48.814] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[00:56:54.317] Server  LOG     ✓ Compiled in 6ms
-[00:57:04.807] Server  LOG     ✓ Compiled in 10ms
-[01:01:25.693] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:01:25.693] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:01:25.693] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:01:25.693] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:01:25.694] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:01:25.972] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:01:25.972] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:01:25.974] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:01:25.974] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:01:25.974] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:06:31.460] Server  LOG     ✓ Compiled in 49ms
-[01:06:50.556] Server  LOG     ✓ Compiled in 20ms
-[01:07:06.592] Server  LOG     ✓ Compiled in 41ms
-[01:07:09.652] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:07:09.652] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:07:09.652] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:07:09.652] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:07:09.652] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:07:09.967] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:07:09.968] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:07:09.968] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:07:09.968] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:07:09.968] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:07:39.520] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:07:39.520] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:07:39.520] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:07:39.520] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:07:39.521] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:07:39.795] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:07:39.797] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:07:39.797] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:07:39.797] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:07:39.797] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:08:25.808] Server  LOG     ✓ Compiled in 579ms
-[01:09:02.203] Server  LOG     ✓ Compiled in 325ms
-[01:09:33.427] Server  LOG     ✓ Compiled in 35ms
-[01:11:37.608] Server  LOG     ✓ Compiled in 578ms
-[01:11:54.377] Server  LOG     ✓ Compiled in 517ms
-[01:11:58.420] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:11:58.420] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:11:58.420] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:11:58.420] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:11:58.420] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:11:59.022] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:11:59.022] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:11:59.023] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:11:59.023] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:11:59.024] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:12:16.218] Server  LOG     ✓ Compiled in 550ms
-[01:14:31.308] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:14:31.308] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:14:31.308] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:14:31.308] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:14:31.309] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:14:31.562] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:14:31.564] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:14:31.565] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:14:31.565] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:14:31.565] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:15:01.751] Server  LOG     ✓ Compiled in 704ms
-[01:16:07.729] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:16:07.730] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:16:07.730] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:16:07.730] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:16:07.730] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:16:08.290] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:16:08.290] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:16:08.291] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:16:08.291] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:16:08.291] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:18:16.859] Server  LOG     ✓ Compiled in 578ms
-[01:18:39.263] Server  LOG     ✓ Compiled in 480ms
-[01:18:44.897] Server  LOG     ✓ Compiled in 396ms
-[01:19:29.632] Server  LOG     ✓ Compiled in 395ms
-[01:19:53.534] Server  LOG     ✓ Compiled in 400ms
-[01:20:05.472] Server  LOG     ✓ Compiled in 347ms
-[01:20:58.299] Server  LOG     ✓ Compiled in 299ms
-[01:21:03.048] Server  LOG     ✓ Compiled in 284ms
-[01:21:08.636] Server  LOG     ✓ Compiled in 351ms
-[01:21:21.157] Server  LOG     ✓ Compiled in 281ms
-[01:22:15.497] Server  LOG     ✓ Compiled in 22ms
-[01:25:37.751] Server  LOG     ✓ Compiled in 614ms
-[01:29:20.388] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:29:20.388] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:29:20.390] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:29:20.390] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:29:20.390] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:29:20.739] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:29:20.742] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:29:20.742] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:29:20.742] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:29:20.743] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:29:23.189] Server  ERROR   PageNotFoundError: Cannot find module for page: /cultural/halloween
-[01:29:23.208] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:29:23.209] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:29:23.209] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:29:23.209] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:29:23.210] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:29:23.529] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:29:23.529] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:29:23.529] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:29:23.529] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:29:23.529] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:29:25.290] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:29:25.290] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:29:25.290] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:29:25.290] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:29:25.290] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:29:25.521] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:29:25.521] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:29:25.521] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:29:25.521] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:29:25.521] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:30:22.214] Server  LOG     ✓ Compiled in 561ms
-[01:30:29.916] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:30:29.917] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:30:29.917] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:30:29.917] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:30:29.917] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:30:30.159] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:30:30.159] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:30:30.160] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:30:30.160] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:30:30.160] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:30:50.381] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:30:50.381] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:30:50.381] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:30:50.381] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:30:50.381] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:30:50.568] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:30:50.569] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:30:50.569] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:30:50.569] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:30:50.569] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[01:35:17.982] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[01:35:17.982] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:35:17.983] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[01:35:17.984] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[01:35:17.984] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[02:28:44.443] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[02:28:44.443] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[02:28:44.443] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[02:28:44.444] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[02:28:44.444] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[03:12:19.411] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[03:12:19.411] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[03:15:30.590] Server  LOG     ✓ Compiled in 105ms
-[03:19:44.075] Server  LOG     ✓ Compiled in 22ms
-[03:19:54.271] Server  LOG     ✓ Compiled in 16ms
-[03:21:16.763] Server  LOG     ✓ Compiled in 561ms
-[03:22:02.625] Server  LOG     ✓ Compiled in 15ms
-[03:22:41.136] Server  LOG     ✓ Compiled in 468ms
-[03:22:41.654] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <ForwardRef> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[03:23:12.951] Server  LOG     ✓ Compiled in 44ms
-[03:23:13.045] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[04:05:45.222] Server  LOG     ✓ Compiled in 30ms
-[04:06:09.545] Server  LOG     ✓ Compiled in 612ms
-[04:06:22.390] Server  LOG     ✓ Compiled in 207ms
-[04:07:03.934] Server  LOG     ✓ Compiled in 15ms
-[04:07:54.251] Server  LOG     ✓ Compiled in 208ms
-[04:23:39.676] Server  LOG     ✓ Compiled in 684ms
-[04:24:05.918] Server  LOG     ✓ Compiled in 428ms
-[04:24:08.024] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
-Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-0 | @import "mixins";
-
-
-styles/style.scss 1:9  root stylesheet
-
-
-
-[04:24:08.024] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.adjust instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[04:24:08.024] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
-darken() is deprecated. Suggestions:
-
-color.scale($color, $lightness: -18.8307692308%)
-color.adjust($color, $lightness: -12%)
-
-More info: https://sass-lang.com/d/color-functions
-
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
-
-
-styles/style.scss 1684:48  root stylesheet
-
-
-
-[04:24:08.025] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1812 |           background: mix($lilac, $white, 15%);
-
-
-styles/style.scss 1813:23  root stylesheet
-
-
-
-[04:24:08.025] Server  WARN    ⚠ ./styles/style.scss
-Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
-Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
-Use color.mix instead.
-
-More info and automated migrator: https://sass-lang.com/d/import
-
-1817 |           background: mix($lilac, $white, 22%);
-
-
-styles/style.scss 1818:23  root stylesheet
-
-
-
-[04:24:08.205] Server  ERROR   Received `true` for a non-boolean attribute `fill`.
+[00:00:05.269] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:00:05.289] Server  ERROR   Received `true` for a non-boolean attribute `fill`.
 
 If you want to write it to the DOM, pass a string instead: fill="true" or fill={value.toString()}.
-[04:24:08.736] Server  WARN    ⚠ ./styles/style.scss
+[00:00:05.658] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
 Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
@@ -3093,24 +93,24 @@ styles/style.scss 1:9  root stylesheet
 
 
 
-[04:24:08.736] Server  WARN    ⚠ ./styles/style.scss
+[00:00:05.658] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
 Use color.adjust instead.
 
 More info and automated migrator: https://sass-lang.com/d/import
 
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
 
 
-styles/style.scss 1684:48  root stylesheet
+styles/style.scss 1685:48  root stylesheet
 
 
 
-[04:24:08.737] Server  WARN    ⚠ ./styles/style.scss
+[00:00:05.658] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
 darken() is deprecated. Suggestions:
 
 color.scale($color, $lightness: -18.8307692308%)
@@ -3118,49 +118,48 @@ color.adjust($color, $lightness: -12%)
 
 More info: https://sass-lang.com/d/color-functions
 
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
 
 
-styles/style.scss 1684:48  root stylesheet
+styles/style.scss 1685:48  root stylesheet
 
 
 
-[04:24:08.737] Server  WARN    ⚠ ./styles/style.scss
+[00:00:05.658] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
+SassWarning: Deprecation Warning on line 1813, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1813:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
 Use color.mix instead.
 
 More info and automated migrator: https://sass-lang.com/d/import
 
-1812 |           background: mix($lilac, $white, 15%);
+1813 |           background: mix($lilac, $white, 15%);
 
 
-styles/style.scss 1813:23  root stylesheet
+styles/style.scss 1814:23  root stylesheet
 
 
 
-[04:24:08.737] Server  WARN    ⚠ ./styles/style.scss
+[00:00:05.659] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
+SassWarning: Deprecation Warning on line 1818, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1818:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
 Use color.mix instead.
 
 More info and automated migrator: https://sass-lang.com/d/import
 
-1817 |           background: mix($lilac, $white, 22%);
+1818 |           background: mix($lilac, $white, 22%);
 
 
-styles/style.scss 1818:23  root stylesheet
+styles/style.scss 1819:23  root stylesheet
 
 
 
-[04:24:09.468] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[04:24:09.468] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:00:06.085] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:06.085] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true fill fill true fill
-[04:25:30.621] Server  LOG     ✓ Compiled in 525ms
-[04:26:55.661] Server  WARN    ⚠ ./styles/style.scss
+[00:00:14.634] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
 Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
@@ -3174,24 +173,24 @@ styles/style.scss 1:9  root stylesheet
 
 
 
-[04:26:55.662] Server  WARN    ⚠ ./styles/style.scss
+[00:00:14.634] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
 Use color.adjust instead.
 
 More info and automated migrator: https://sass-lang.com/d/import
 
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
 
 
-styles/style.scss 1684:48  root stylesheet
+styles/style.scss 1685:48  root stylesheet
 
 
 
-[04:26:55.663] Server  WARN    ⚠ ./styles/style.scss
+[00:00:14.635] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
-SassWarning: Deprecation Warning on line 1683, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1683:47:
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
 darken() is deprecated. Suggestions:
 
 color.scale($color, $lightness: -18.8307692308%)
@@ -3199,40 +198,511 @@ color.adjust($color, $lightness: -12%)
 
 More info: https://sass-lang.com/d/color-functions
 
-1683 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
 
 
-styles/style.scss 1684:48  root stylesheet
+styles/style.scss 1685:48  root stylesheet
 
 
 
-[04:26:55.664] Server  WARN    ⚠ ./styles/style.scss
+[00:00:14.635] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
-SassWarning: Deprecation Warning on line 1812, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1812:22:
+SassWarning: Deprecation Warning on line 1813, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1813:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
 Use color.mix instead.
 
 More info and automated migrator: https://sass-lang.com/d/import
 
-1812 |           background: mix($lilac, $white, 15%);
+1813 |           background: mix($lilac, $white, 15%);
 
 
-styles/style.scss 1813:23  root stylesheet
+styles/style.scss 1814:23  root stylesheet
 
 
 
-[04:26:55.664] Server  WARN    ⚠ ./styles/style.scss
+[00:00:14.636] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
-SassWarning: Deprecation Warning on line 1817, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1817:22:
+SassWarning: Deprecation Warning on line 1818, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1818:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
 Use color.mix instead.
 
 More info and automated migrator: https://sass-lang.com/d/import
 
-1817 |           background: mix($lilac, $white, 22%);
+1818 |           background: mix($lilac, $white, 22%);
 
 
-styles/style.scss 1818:23  root stylesheet
+styles/style.scss 1819:23  root stylesheet
+
+
+
+[00:00:14.682] Server  ERROR   ReferenceError: styles is not defined
+[00:00:14.688] Server  ERROR   ⨯ ReferenceError: styles is not defined
+[00:00:14.694] Server  ERROR   ⨯ ReferenceError: styles is not defined
+[00:00:14.695] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[00:00:14.695] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1685:48  root stylesheet
+
+
+
+[00:00:14.695] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.8307692308%)
+color.adjust($color, $lightness: -12%)
+
+More info: https://sass-lang.com/d/color-functions
+
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1685:48  root stylesheet
+
+
+
+[00:00:14.695] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1813, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1813:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1813 |           background: mix($lilac, $white, 15%);
+
+
+styles/style.scss 1814:23  root stylesheet
+
+
+
+[00:00:14.695] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1818, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1818:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1818 |           background: mix($lilac, $white, 22%);
+
+
+styles/style.scss 1819:23  root stylesheet
+
+
+
+[00:00:15.094] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[00:00:15.094] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1685:48  root stylesheet
+
+
+
+[00:00:15.094] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.8307692308%)
+color.adjust($color, $lightness: -12%)
+
+More info: https://sass-lang.com/d/color-functions
+
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1685:48  root stylesheet
+
+
+
+[00:00:15.095] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1813, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1813:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1813 |           background: mix($lilac, $white, 15%);
+
+
+styles/style.scss 1814:23  root stylesheet
+
+
+
+[00:00:15.095] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1818, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1818:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1818 |           background: mix($lilac, $white, 22%);
+
+
+styles/style.scss 1819:23  root stylesheet
+
+
+
+[00:00:15.116] Browser ERROR   uncaughtError: ReferenceError: styles is not defined
+[00:00:26.770] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:26.804] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[00:00:26.804] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1685:48  root stylesheet
+
+
+
+[00:00:26.804] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.8307692308%)
+color.adjust($color, $lightness: -12%)
+
+More info: https://sass-lang.com/d/color-functions
+
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1685:48  root stylesheet
+
+
+
+[00:00:26.804] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1813, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1813:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1813 |           background: mix($lilac, $white, 15%);
+
+
+styles/style.scss 1814:23  root stylesheet
+
+
+
+[00:00:26.804] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1818, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1818:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1818 |           background: mix($lilac, $white, 22%);
+
+
+styles/style.scss 1819:23  root stylesheet
+
+
+
+[00:00:26.922] Server  LOG     ✓ Compiled in 12ms
+[00:00:27.167] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[00:00:27.168] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1685:48  root stylesheet
+
+
+
+[00:00:27.169] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.8307692308%)
+color.adjust($color, $lightness: -12%)
+
+More info: https://sass-lang.com/d/color-functions
+
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1685:48  root stylesheet
+
+
+
+[00:00:27.189] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1813, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1813:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1813 |           background: mix($lilac, $white, 15%);
+
+
+styles/style.scss 1814:23  root stylesheet
+
+
+
+[00:00:27.189] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1818, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1818:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1818 |           background: mix($lilac, $white, 22%);
+
+
+styles/style.scss 1819:23  root stylesheet
+
+
+
+[00:01:38.367] Server  LOG     ✓ Compiled in 183ms
+[00:01:39.341] Browser LOG     Refreshing page data due to server-side change
+[00:01:39.341] Browser ERROR   A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components
+[00:02:06.850] Server  LOG     ✓ Compiled in 637ms
+[00:03:48.016] Server  LOG     ✓ Compiled in 50ms
+[00:06:07.585] Server  LOG     ✓ Compiled in 163ms
+[00:07:25.627] Server  LOG     ✓ Compiled in 48ms
+[00:09:31.379] Server  LOG     ✓ Compiled in 33ms
+[00:10:28.506] Server  LOG     ✓ Compiled in 878ms
+[00:12:20.758] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[00:12:20.758] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1685:48  root stylesheet
+
+
+
+[00:12:20.758] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.8307692308%)
+color.adjust($color, $lightness: -12%)
+
+More info: https://sass-lang.com/d/color-functions
+
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1685:48  root stylesheet
+
+
+
+[00:12:20.758] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1813, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1813:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1813 |           background: mix($lilac, $white, 15%);
+
+
+styles/style.scss 1814:23  root stylesheet
+
+
+
+[00:12:20.758] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1818, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1818:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1818 |           background: mix($lilac, $white, 22%);
+
+
+styles/style.scss 1819:23  root stylesheet
+
+
+
+[00:12:21.086] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[00:12:21.086] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1685:48  root stylesheet
+
+
+
+[00:12:21.087] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1684, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1684:47:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.8307692308%)
+color.adjust($color, $lightness: -12%)
+
+More info: https://sass-lang.com/d/color-functions
+
+1684 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1685:48  root stylesheet
+
+
+
+[00:12:21.087] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1813, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1813:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1813 |           background: mix($lilac, $white, 15%);
+
+
+styles/style.scss 1814:23  root stylesheet
+
+
+
+[00:12:21.087] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1818, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1818:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1818 |           background: mix($lilac, $white, 22%);
+
+
+styles/style.scss 1819:23  root stylesheet
 
 
 

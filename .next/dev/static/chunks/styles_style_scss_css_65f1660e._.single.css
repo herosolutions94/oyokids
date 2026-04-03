@@ -3239,4 +3239,579 @@ footer .footer-links a:hover {
   line-height: 1.5;
 }
 
+.reg_sc {
+  background: #f4f5f8;
+  min-height: 100vh;
+}
+
+.reg_sc .reg_header {
+  background: linear-gradient(160deg, #9ddcec 0%, #86a5d3 45%, #c686b2 100%);
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 14px 40px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .reg_sc .reg_header {
+    text-align: center;
+    flex-direction: column;
+    padding: 16px 20px;
+  }
+}
+
+.reg_sc .reg_header_inner {
+  align-items: center;
+  gap: 16px;
+  display: flex;
+}
+
+.reg_sc .reg_logo {
+  width: auto;
+  height: 52px;
+}
+
+.reg_sc .reg_tagline {
+  color: #ffffffd9;
+  font-size: .82rem;
+  font-weight: 700;
+}
+
+@media (max-width: 475px) {
+  .reg_sc .reg_tagline {
+    display: none;
+  }
+}
+
+.reg_sc .reg_header_cta {
+  text-align: right;
+  color: #fff;
+}
+
+.reg_sc .reg_header_cta p {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.reg_sc .reg_header_cta p strong {
+  color: #ebfa75;
+}
+
+.reg_sc .reg_header_cta span {
+  opacity: .85;
+  font-size: .78rem;
+}
+
+@media (max-width: 991px) {
+  .reg_sc .reg_header_cta {
+    text-align: center;
+  }
+}
+
+.reg_sc .reg_body {
+  padding: 48px 20px 80px;
+}
+
+.reg_sc .reg_container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.reg_sc .reg_title {
+  text-align: center;
+  color: #2f2a3a;
+  margin-bottom: 8px;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 900;
+}
+
+.reg_sc .reg_title span {
+  color: #e17ca8;
+}
+
+.reg_sc .reg_sub {
+  text-align: center;
+  color: #888;
+  margin-bottom: 32px;
+  font-size: .88rem;
+  font-weight: 600;
+}
+
+.reg_sc .type_toggle {
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 28px;
+  display: flex;
+}
+
+@media (max-width: 475px) {
+  .reg_sc .type_toggle {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.reg_sc .type_btn {
+  color: #999;
+  cursor: pointer;
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 50px;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 30px;
+  font-size: .9rem;
+  font-weight: 800;
+  transition: all .3s;
+  display: flex;
+}
+
+.reg_sc .type_btn:hover {
+  color: #e17ca8;
+  border-color: #e17ca8;
+}
+
+.reg_sc .type_btn.type_btn_active {
+  color: #fff;
+  background: #e17ca8;
+  border-color: #e17ca8;
+  box-shadow: 0 4px 16px #e17ca859;
+}
+
+.reg_sc .type_btn.type_btn_active:hover {
+  color: #fff;
+}
+
+.reg_sc .type_btn.type_btn_active_school {
+  color: #fff;
+  background: #9f7eb2;
+  border-color: #9f7eb2;
+  box-shadow: 0 4px 16px #9f7eb259;
+}
+
+.reg_sc .type_btn.type_btn_active_school:hover {
+  color: #fff;
+}
+
+.reg_sc .type_icon {
+  font-size: 1rem;
+}
+
+.reg_sc .info_banner {
+  background: linear-gradient(135deg, #e17ca814 0%, #c686b214 100%);
+  border: 1.5px solid #e17ca833;
+  border-radius: 16px;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 36px;
+  padding: 16px 20px;
+  display: flex;
+}
+
+.reg_sc .info_banner strong {
+  color: #c686b2;
+  margin-bottom: 3px;
+  font-size: .9rem;
+  font-weight: 900;
+  display: block;
+}
+
+.reg_sc .info_banner p {
+  color: #2f2a3a;
+  margin: 0;
+  font-size: .84rem;
+  line-height: 1.5;
+}
+
+.reg_sc .info_banner.info_banner_school {
+  background: linear-gradient(135deg, #9f7eb214 0%, #86a5d314 100%);
+  border-color: #9f7eb233;
+}
+
+.reg_sc .info_banner.info_banner_school strong {
+  color: #9f7eb2;
+}
+
+.reg_sc .info_banner_icon {
+  background: #9f7eb21f;
+  border-radius: 10px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  font-size: 1.4rem;
+  display: flex;
+}
+
+.reg_sc .reg_form {
+  background: #fff;
+  border-radius: 24px;
+  padding: 36px 40px;
+  box-shadow: 0 4px 24px #2f2a3a0f;
+}
+
+@media (max-width: 475px) {
+  .reg_sc .reg_form {
+    padding: 24px 18px;
+  }
+}
+
+.reg_sc .form_section {
+  margin-bottom: 32px;
+}
+
+.reg_sc .section_label {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #9f7eb2;
+  border-bottom: 1.5px solid #f0edf8;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  font-size: .7rem;
+  font-weight: 900;
+}
+
+.reg_sc .form_row {
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  display: grid;
+}
+
+@media (max-width: 475px) {
+  .reg_sc .form_row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.reg_sc .form_row3 {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  display: grid;
+}
+
+@media (max-width: 991px) {
+  .reg_sc .form_row3 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 475px) {
+  .reg_sc .form_row3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.reg_sc .form_row4 {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-top: 14px;
+  display: grid;
+}
+
+@media (max-width: 991px) {
+  .reg_sc .form_row4 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 475px) {
+  .reg_sc .form_row4 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.reg_sc .form_group {
+  flex-direction: column;
+  display: flex;
+}
+
+.reg_sc .form_label {
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  color: #2f2a3a;
+  margin-bottom: 6px;
+  font-size: .72rem;
+  font-weight: 900;
+}
+
+.reg_sc .req {
+  color: #e17ca8;
+}
+
+.reg_sc .input_wrap {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.reg_sc .input_icon {
+  opacity: .5;
+  pointer-events: none;
+  font-size: .9rem;
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+}
+
+.reg_sc .reg_input {
+  color: #2f2a3a;
+  background: #fafafa;
+  border: 2px solid #eee;
+  border-radius: 12px;
+  outline: none;
+  width: 100%;
+  padding: 12px 16px 12px 38px;
+  font-family: inherit;
+  font-size: .88rem;
+  transition: all .3s;
+}
+
+.reg_sc .reg_input:focus {
+  background: #fff;
+  border-color: #e17ca8;
+}
+
+.reg_sc .reg_input::placeholder {
+  color: #bbb;
+}
+
+.reg_sc .reg_input.reg_select {
+  appearance: none;
+  cursor: pointer;
+  background-color: #fafafa;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23999' stroke-width='1.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-position: right 14px center;
+  background-repeat: no-repeat;
+  padding-right: 36px;
+}
+
+.reg_sc .grade_chips {
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+  margin-bottom: 18px;
+  display: flex;
+}
+
+.reg_sc .grade_chip {
+  color: #999;
+  cursor: pointer;
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 50px;
+  padding: 8px 18px;
+  font-size: .82rem;
+  font-weight: 800;
+  transition: all .3s;
+}
+
+.reg_sc .grade_chip:hover {
+  color: #e17ca8;
+  border-color: #e17ca8;
+}
+
+.reg_sc .grade_chip.grade_chip_active {
+  color: #e17ca8;
+  background: #e17ca814;
+  border-color: #e17ca8;
+}
+
+.reg_sc .school_type_btns {
+  gap: 8px;
+  display: flex;
+}
+
+@media (max-width: 475px) {
+  .reg_sc .school_type_btns {
+    flex-direction: column;
+  }
+}
+
+.reg_sc .school_type_btn {
+  color: #999;
+  cursor: pointer;
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 8px;
+  font-size: .8rem;
+  font-weight: 800;
+  transition: all .3s;
+  display: flex;
+}
+
+.reg_sc .school_type_btn span {
+  font-size: 1.2rem;
+}
+
+.reg_sc .school_type_btn:hover {
+  color: #9f7eb2;
+  border-color: #9f7eb2;
+}
+
+.reg_sc .school_type_btn.school_type_btn_active {
+  color: #86a5d3;
+  background: #86a5d31a;
+  border-color: #86a5d3;
+}
+
+.reg_sc .pass_hint {
+  color: #aaa;
+  margin-top: 6px;
+  font-size: .76rem;
+}
+
+.reg_sc .check_group {
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 28px;
+  display: flex;
+}
+
+.reg_sc .check_label {
+  color: #2f2a3a;
+  cursor: pointer;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: .83rem;
+  line-height: 1.55;
+  display: flex;
+}
+
+.reg_sc .check_label input[type="checkbox"] {
+  accent-color: #e17ca8;
+  cursor: pointer;
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+}
+
+.reg_sc .check_label a {
+  color: #e17ca8;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.reg_sc .check_label a:hover {
+  text-decoration: underline;
+}
+
+.reg_sc .reg_submit_btn {
+  color: #fff;
+  cursor: pointer;
+  background: #e17ca8;
+  border: none;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 900;
+  transition: all .3s;
+  display: block;
+  box-shadow: 0 6px 20px #e17ca866;
+}
+
+.reg_sc .reg_submit_btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px #e17ca880;
+}
+
+.reg_sc .reg_submit_btn.reg_submit_btn_school {
+  background: #9f7eb2;
+  box-shadow: 0 6px 20px #9f7eb266;
+}
+
+.reg_sc .reg_submit_btn.reg_submit_btn_school:hover {
+  box-shadow: 0 8px 28px #9f7eb280;
+}
+
+.reg_sc .reg_divider {
+  align-items: center;
+  gap: 12px;
+  margin: 24px 0;
+  display: flex;
+}
+
+.reg_sc .reg_divider span {
+  color: #bbb;
+  white-space: nowrap;
+  font-size: .8rem;
+}
+
+.reg_sc .reg_divider_line {
+  background: #eee;
+  flex: 1;
+  height: 1px;
+}
+
+.reg_sc .reg_social_btns {
+  gap: 14px;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+@media (max-width: 475px) {
+  .reg_sc .reg_social_btns {
+    flex-direction: column;
+  }
+}
+
+.reg_sc .reg_social_btn {
+  color: #2f2a3a;
+  cursor: pointer;
+  background: #fff;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 12px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 16px;
+  font-size: .88rem;
+  font-weight: 700;
+  transition: all .3s;
+  display: flex;
+}
+
+.reg_sc .reg_social_btn img {
+  object-fit: contain;
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.reg_sc .reg_social_btn:hover {
+  color: #e17ca8;
+  border-color: #e17ca8;
+}
+
+.reg_sc .reg_already_have {
+  text-align: center;
+  color: #aaa;
+  margin: 2rem 0 0;
+  font-size: .85rem;
+}
+
+.reg_sc .reg_already_have a {
+  color: #e17ca8;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.reg_sc .reg_already_have a:hover {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=styles_style_scss_css_65f1660e._.single.css.map*/

@@ -38,17 +38,17 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/pages__error_2da965e7._.js",
       "static/chunks/turbopack-pages__error_af01c4e3._.js"
     ],
-    "/adventure": [
+    "/register": [
+      "static/chunks/[root-of-the-server]__b808370e._.js",
       "static/chunks/node_modules_next_dist_compiled_8ca6b690._.js",
-      "static/chunks/node_modules_next_dist_shared_lib_15080aa3._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_8066b03d._.js",
       "static/chunks/node_modules_next_dist_client_881bc7f7._.js",
       "static/chunks/node_modules_next_dist_75b597d7._.js",
-      "static/chunks/node_modules_next_5cb05f67._.js",
+      "static/chunks/node_modules_next_1e915a6b._.js",
       "static/chunks/node_modules_react-dom_4411d9bd._.js",
       "static/chunks/node_modules_f1be3ba2._.js",
-      "static/chunks/[root-of-the-server]__f43e06f6._.js",
-      "static/chunks/pages_adventure_2da965e7._.js",
-      "static/chunks/turbopack-pages_adventure_3c7e83a7._.js"
+      "static/chunks/pages_register_2da965e7._.js",
+      "static/chunks/turbopack-pages_register_f2dbe1df._.js"
     ]
   },
   "devFiles": [],

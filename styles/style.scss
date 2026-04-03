@@ -2966,3 +2966,582 @@ footer {
   margin-top: 12px;
   line-height: 1.5;
 }
+
+
+
+
+
+
+// ====register===
+// Add this block inside your style.scss, or @import this file into it.
+// All variables match your existing style.scss tokens.
+
+.reg_sc {
+  min-height: 100vh;
+  background: #f4f5f8;
+
+  // ── HEADER ────────────────────────────────────────────────────────────────
+  .reg_header {
+    background: linear-gradient(160deg, $sky 0%, $blue 45%, $lilac 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 40px;
+    gap: 20px;
+
+    @include ipad_sm {
+      flex-direction: column;
+      padding: 16px 20px;
+      text-align: center;
+    }
+  }
+
+  .reg_header_inner {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .reg_logo {
+    height: 52px;
+    width: auto;
+  }
+
+  .reg_tagline {
+    color: rgba($white, 0.85);
+    font-size: 0.82rem;
+    font-weight: 700;
+
+    @include mobile_sm {
+      display: none;
+    }
+  }
+
+  .reg_header_cta {
+    text-align: right;
+    color: $white;
+
+    p {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin: 0;
+
+      strong {
+        color: $lemon;
+      }
+    }
+
+    span {
+      font-size: 0.78rem;
+      opacity: 0.85;
+    }
+
+    @include ipad_sm {
+      text-align: center;
+    }
+  }
+
+  // ── BODY ──────────────────────────────────────────────────────────────────
+  .reg_body {
+    padding: 48px 20px 80px;
+  }
+
+  .reg_container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  // ── PAGE TITLE ────────────────────────────────────────────────────────────
+  .reg_title {
+    text-align: center;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    font-weight: 900;
+    color: $ink;
+    margin-bottom: 8px;
+
+    span {
+      color: $pink;
+    }
+  }
+
+  .reg_sub {
+    text-align: center;
+    color: #888;
+    font-size: 0.88rem;
+    font-weight: 600;
+    margin-bottom: 32px;
+  }
+
+  // ── ACCOUNT TYPE TOGGLE ───────────────────────────────────────────────────
+  .type_toggle {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 28px;
+
+    @include mobile_sm {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .type_btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 30px;
+    border-radius: 50px;
+    border: 2px solid #ddd;
+    background: $white;
+    font-weight: 800;
+    font-size: 0.9rem;
+    color: #999;
+    cursor: pointer;
+    @include trans;
+
+    &:hover {
+      border-color: $pink;
+      color: $pink;
+    }
+
+    &.type_btn_active {
+      background: $pink;
+      border-color: $pink;
+      color: $white;
+      box-shadow: 0 4px 16px rgba($pink, 0.35);
+
+      &:hover {
+        color: $white;
+      }
+    }
+
+    &.type_btn_active_school {
+      background: $purple;
+      border-color: $purple;
+      color: $white;
+      box-shadow: 0 4px 16px rgba($purple, 0.35);
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+
+  .type_icon {
+    font-size: 1rem;
+  }
+
+  // ── INFO BANNER ───────────────────────────────────────────────────────────
+  .info_banner {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: linear-gradient(135deg, rgba($pink, 0.08) 0%, rgba($lilac, 0.08) 100%);
+    border: 1.5px solid rgba($pink, 0.2);
+    border-radius: 16px;
+    padding: 16px 20px;
+    margin-bottom: 36px;
+
+    strong {
+      display: block;
+      color: $lilac;
+      font-size: 0.9rem;
+      font-weight: 900;
+      margin-bottom: 3px;
+    }
+
+    p {
+      color: $ink;
+      font-size: 0.84rem;
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    &.info_banner_school {
+      background: linear-gradient(135deg, rgba($purple, 0.08) 0%, rgba($blue, 0.08) 100%);
+      border-color: rgba($purple, 0.2);
+
+      strong {
+        color: $purple;
+      }
+    }
+  }
+
+  .info_banner_icon {
+    font-size: 1.4rem;
+    width: 42px;
+    height: 42px;
+    background: rgba($purple, 0.12);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  // ── FORM CARD ─────────────────────────────────────────────────────────────
+  .reg_form {
+    background: $white;
+    border-radius: 24px;
+    padding: 36px 40px;
+    box-shadow: 0 4px 24px rgba($ink, 0.06);
+
+    @include mobile_sm {
+      padding: 24px 18px;
+    }
+  }
+
+  // ── FORM SECTION ──────────────────────────────────────────────────────────
+  .form_section {
+    margin-bottom: 32px;
+  }
+
+  .section_label {
+    font-size: 0.7rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: $purple;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid #f0edf8;
+  }
+
+  // ── GRID ROWS ─────────────────────────────────────────────────────────────
+  .form_row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+
+    @include mobile_sm {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .form_row3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+
+    @include ipad_sm {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include mobile_sm {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .form_row4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-top: 14px;
+
+    @include ipad_sm {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include mobile_sm {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  // ── FORM GROUP & LABEL ────────────────────────────────────────────────────
+  .form_group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form_label {
+    font-size: 0.72rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: $ink;
+    margin-bottom: 6px;
+  }
+
+  .req {
+    color: $pink;
+  }
+
+  // ── INPUT WRAP ────────────────────────────────────────────────────────────
+  .input_wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .input_icon {
+    position: absolute;
+    left: 12px;
+    font-size: 0.9rem;
+    opacity: 0.5;
+    pointer-events: none;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 1;
+  }
+
+  .reg_input {
+    width: 100%;
+    padding: 12px 16px 12px 38px;
+    border: 2px solid #eee;
+    border-radius: 12px;
+    background: #fafafa;
+    font-family: inherit;
+    font-size: 0.88rem;
+    color: $ink;
+    outline: none;
+    @include trans;
+
+    &:focus {
+      border-color: $pink;
+      background: $white;
+    }
+
+    &::placeholder {
+      color: #bbb;
+    }
+
+    &.reg_select {
+      appearance: none;
+      cursor: pointer;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23999' stroke-width='1.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 14px center;
+      background-color: #fafafa;
+      padding-right: 36px;
+    }
+  }
+
+  // ── GRADE CHIPS ───────────────────────────────────────────────────────────
+  .grade_chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 6px;
+    margin-bottom: 18px;
+  }
+
+  .grade_chip {
+    padding: 8px 18px;
+    border-radius: 50px;
+    border: 2px solid #e0e0e0;
+    background: $white;
+    font-weight: 800;
+    font-size: 0.82rem;
+    color: #999;
+    cursor: pointer;
+    @include trans;
+
+    &:hover {
+      border-color: $pink;
+      color: $pink;
+    }
+
+    &.grade_chip_active {
+      border-color: $pink;
+      background: rgba($pink, 0.08);
+      color: $pink;
+    }
+  }
+
+  // ── SCHOOL TYPE BUTTONS ───────────────────────────────────────────────────
+  .school_type_btns {
+    display: flex;
+    gap: 8px;
+
+    @include mobile_sm {
+      flex-direction: column;
+    }
+  }
+
+  .school_type_btn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 12px 8px;
+    border-radius: 12px;
+    border: 2px solid #e0e0e0;
+    background: $white;
+    font-weight: 800;
+    font-size: 0.8rem;
+    color: #999;
+    cursor: pointer;
+    @include trans;
+
+    span {
+      font-size: 1.2rem;
+    }
+
+    &:hover {
+      border-color: $purple;
+      color: $purple;
+    }
+
+    &.school_type_btn_active {
+      border-color: $blue;
+      background: rgba($blue, 0.1);
+      color: $blue;
+    }
+  }
+
+  // ── PASSWORD HINT ─────────────────────────────────────────────────────────
+  .pass_hint {
+    font-size: 0.76rem;
+    color: #aaa;
+    margin-top: 6px;
+  }
+
+  // ── CHECKBOXES ────────────────────────────────────────────────────────────
+  .check_group {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+
+  .check_label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 0.83rem;
+    color: $ink;
+    line-height: 1.55;
+    cursor: pointer;
+
+    input[type='checkbox'] {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+      accent-color: $pink;
+      margin-top: 2px;
+      cursor: pointer;
+    }
+
+    a {
+      color: $pink;
+      text-decoration: none;
+      font-weight: 700;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  // ── SUBMIT BUTTON ─────────────────────────────────────────────────────────
+  .reg_submit_btn {
+    display: block;
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 16px 24px;
+    border-radius: 50px;
+    border: none;
+    background: $pink;
+    color: $white;
+    font-weight: 900;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: inherit;
+    box-shadow: 0 6px 20px rgba($pink, 0.4);
+    @include trans;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba($pink, 0.5);
+    }
+
+    &.reg_submit_btn_school {
+      background: $purple;
+      box-shadow: 0 6px 20px rgba($purple, 0.4);
+
+      &:hover {
+        box-shadow: 0 8px 28px rgba($purple, 0.5);
+      }
+    }
+  }
+
+  // ── DIVIDER ───────────────────────────────────────────────────────────────
+  .reg_divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 24px 0;
+
+    span {
+      font-size: 0.8rem;
+      color: #bbb;
+      white-space: nowrap;
+    }
+  }
+
+  .reg_divider_line {
+    flex: 1;
+    height: 1px;
+    background: #eee;
+  }
+
+  // ── SOCIAL BUTTONS ────────────────────────────────────────────────────────
+  .reg_social_btns {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 24px;
+
+    @include mobile_sm {
+      flex-direction: column;
+    }
+  }
+
+  .reg_social_btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 13px 16px;
+    border-radius: 12px;
+    border: 1.5px solid #e0e0e0;
+    background: $white;
+    font-weight: 700;
+    font-size: 0.88rem;
+    color: $ink;
+    cursor: pointer;
+    @include trans;
+
+    img {
+      width: 1.3rem;
+      height: 1.3rem;
+      object-fit: contain;
+    }
+
+    &:hover {
+      border-color: $pink;
+      color: $pink;
+    }
+  }
+
+  // ── ALREADY HAVE ACCOUNT ──────────────────────────────────────────────────
+  .reg_already_have {
+    text-align: center;
+    color: #aaa;
+    font-size: 0.85rem;
+    margin: 0;
+    margin-top: 2rem;
+
+    a {
+      color: $pink;
+      font-weight: 800;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
