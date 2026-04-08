@@ -1046,197 +1046,221 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 ;
-const teamMembers = [
+const teamData = [
     {
-        id: 1,
-        name: 'Dianne Russell',
-        initials: 'DR',
-        role: 'Front-end Developer',
-        label: 'FRONT-END',
-        labelColor: '#f472b6',
-        labelBg: 'rgba(244,114,182,0.15)',
-        subtitle: 'React Specialist · 5 Years',
-        bio: 'Specializes in creating seamless user experiences with React and Next.js. Every pixel she ships is intentional, accessible, and buttery-smooth.'
+        name: "Tamika Quartey",
+        role: "Founder & CEO",
+        title: "ESL Educator · Pedagogical Lead · 12 Years",
+        initials: "TQ",
+        badge: "badge-pink",
+        bio: `With 12 years in primary English education across multiple countries,
+    Tamika is the pedagogical heart of Oyo Kids...`
     },
     {
-        id: 2,
-        name: 'Guy Hawkins',
-        initials: 'GH',
-        role: 'UI/UX Designer',
-        label: 'UI/UX DESIGNER',
-        labelColor: '#60a5fa',
-        labelBg: 'rgba(96,165,250,0.15)',
-        subtitle: 'Lead Designer · Product Experience',
-        bio: 'Passionate about clean aesthetics and functional design systems. His designs are not just beautiful — they guide users naturally from start to finish.'
+        name: "Magno Albuquerque",
+        role: "Illustration & Animation",
+        title: "Creative Director · Visual Storyteller",
+        initials: "MA",
+        badge: "badge-sky",
+        bio: `Magno is the extraordinary creative force behind every illustration...`
     },
     {
-        id: 3,
-        name: 'Esther Howard',
-        initials: 'EH',
-        role: 'CTO',
-        label: 'FOUNDER & CTO',
-        labelColor: '#f472b6',
-        labelBg: 'rgba(244,114,182,0.15)',
-        subtitle: 'Engineering Lead · 10 Years',
-        bio: 'Leading our technical strategy and architectural decisions. Esther defines the engineering culture — rigorous, collaborative, and always forward-thinking.'
+        name: "Raquel Pimentel",
+        role: "UI/UX Designer",
+        title: "Lead Designer · Product Experience",
+        initials: "RP",
+        badge: "badge-purple",
+        bio: `Raquel is the creative mind behind the Oyo Kids visual identity...`
     },
     {
-        id: 4,
-        name: 'Robert Fox',
-        initials: 'RF',
-        role: 'Backend Engineer',
-        label: 'QA & TECHNICAL',
-        labelColor: '#34d399',
-        labelBg: 'rgba(52,211,153,0.15)',
-        subtitle: 'Quality Assurance · Technical Operations',
-        bio: 'Expert in Node.js, databases, and high-performance server logic. Robert is the meticulous guardian of reliability — if it ships, it works.'
+        name: "Abdou Mouelhi",
+        role: "QA & Technical",
+        title: "Quality Assurance · Technical Operations",
+        initials: "AM",
+        badge: "badge-sage",
+        bio: `Abdou is the meticulous guardian of the Oyo Kids experience...`
     }
 ];
 function Team() {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
-        className: "team-section",
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["Fragment"], {
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "bg-blob blob-1"
-            }, void 0, false, {
-                fileName: "[project]/components/team.js",
-                lineNumber: 52,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "bg-blob blob-2"
-            }, void 0, false, {
-                fileName: "[project]/components/team.js",
-                lineNumber: 53,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "bg-blob blob-3"
-            }, void 0, false, {
-                fileName: "[project]/components/team.js",
-                lineNumber: 54,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "contain-sm",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
+                className: "team-section",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                        className: "sec-label",
-                        children: "THE PEOPLE BEHIND THE MAGIC"
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        className: "blob b1"
                     }, void 0, false, {
                         fileName: "[project]/components/team.js",
-                        lineNumber: 57,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                        className: "sec-title",
-                        children: [
-                            "Meet the ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                className: "highlight-oyo",
-                                children: "Oyo Kids"
-                            }, void 0, false, {
-                                fileName: "[project]/components/team.js",
-                                lineNumber: 60,
-                                columnNumber: 20
-                            }, this),
-                            " Team"
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/team.js",
-                        lineNumber: 59,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                        className: "sec-subtitle",
-                        children: "A small but mighty team of educators, designers and creators united by one belief — that every child in every classroom deserves to fall in love with language and its culture."
-                    }, void 0, false, {
-                        fileName: "[project]/components/team.js",
-                        lineNumber: 63,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "team-grid",
-                        children: teamMembers.map((member)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "team-card",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                        className: "role-badge",
-                                        style: {
-                                            color: member.labelColor,
-                                            background: member.labelBg,
-                                            borderColor: member.labelColor
-                                        },
-                                        children: member.label
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/team.js",
-                                        lineNumber: 73,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                        className: "member-name",
-                                        children: member.name
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/team.js",
-                                        lineNumber: 81,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                        className: "member-subtitle",
-                                        children: member.subtitle
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/team.js",
-                                        lineNumber: 82,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                        className: "card-body",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                                className: "avatar",
-                                                children: member.initials
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/team.js",
-                                                lineNumber: 86,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                                className: "member-bio",
-                                                children: member.bio
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/team.js",
-                                                lineNumber: 93,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/team.js",
-                                        lineNumber: 84,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, member.id, true, {
-                                fileName: "[project]/components/team.js",
-                                lineNumber: 71,
-                                columnNumber: 13
-                            }, this))
+                        className: "blob b2"
                     }, void 0, false, {
                         fileName: "[project]/components/team.js",
-                        lineNumber: 69,
+                        lineNumber: 43,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        className: "blob b3"
+                    }, void 0, false, {
+                        fileName: "[project]/components/team.js",
+                        lineNumber: 44,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        className: "contain-sm",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                className: "sec-label",
+                                children: "The People Behind the Magic"
+                            }, void 0, false, {
+                                fileName: "[project]/components/team.js",
+                                lineNumber: 46,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
+                                className: "sec-title",
+                                children: [
+                                    "Meet the ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        children: "Oyo Kids"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/team.js",
+                                        lineNumber: 48,
+                                        columnNumber: 20
+                                    }, this),
+                                    " Team"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/team.js",
+                                lineNumber: 47,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                className: "sec-sub",
+                                children: "A small but mighty team of educators, designers and creators united by one belief — that every child in every classroom deserves to fall in love with language."
+                            }, void 0, false, {
+                                fileName: "[project]/components/team.js",
+                                lineNumber: 50,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                className: "team-grid",
+                                children: teamData.map((member, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                        className: "team-card",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "card-top",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                        className: `role-badge ${member.badge}`,
+                                                        children: member.role
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/team.js",
+                                                        lineNumber: 59,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                        className: "member-name",
+                                                        children: member.name
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/team.js",
+                                                        lineNumber: 63,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                        className: "member-title",
+                                                        children: member.title
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/team.js",
+                                                        lineNumber: 64,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                        className: "member-divider"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/team.js",
+                                                        lineNumber: 65,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/team.js",
+                                                lineNumber: 58,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "card-body",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                        className: "avatar-wrap",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                            className: "avatar-inner",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                                className: "avatar-initials",
+                                                                children: member.initials
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/team.js",
+                                                                lineNumber: 71,
+                                                                columnNumber: 21
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/team.js",
+                                                            lineNumber: 70,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/team.js",
+                                                        lineNumber: 69,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                        className: "member-bio",
+                                                        children: member.bio
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/team.js",
+                                                        lineNumber: 77,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/team.js",
+                                                lineNumber: 68,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, i, true, {
+                                        fileName: "[project]/components/team.js",
+                                        lineNumber: 57,
+                                        columnNumber: 13
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/components/team.js",
+                                lineNumber: 55,
+                                columnNumber: 9
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/team.js",
+                        lineNumber: 45,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/team.js",
-                lineNumber: 56,
+                lineNumber: 41,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                className: "color-strip-bottom"
+            }, void 0, false, {
+                fileName: "[project]/components/team.js",
+                lineNumber: 85,
                 columnNumber: 7
             }, this)
         ]
-    }, void 0, true, {
-        fileName: "[project]/components/team.js",
-        lineNumber: 50,
-        columnNumber: 5
-    }, this);
+    }, void 0, true);
 }
 }),
 "[project]/components/testimonials.js [ssr] (ecmascript)", ((__turbopack_context__) => {

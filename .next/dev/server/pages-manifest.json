@@ -2,6 +2,5 @@
   "/": "pages/index.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/adventure": "pages/adventure.js",
-  "/register": "pages/register.js"
+  "/adventure": "pages/adventure.js"
 }
