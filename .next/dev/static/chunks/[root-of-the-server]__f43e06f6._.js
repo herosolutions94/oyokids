@@ -664,55 +664,55 @@ const vocabularyItems = [
     {
         id: 1,
         word: 'Sit Down',
-        icon: '🪑',
+        icon: '/images/sitdown.svg',
         colorClass: 'color-green'
     },
     {
         id: 2,
         word: 'Stand Up',
-        icon: '🧍',
+        icon: '/images/standup.svg',
         colorClass: 'color-green'
     },
     {
         id: 3,
         word: 'Talk',
-        icon: '💬',
+        icon: '/images/icon1.png',
         colorClass: 'color-pink'
     },
     {
         id: 4,
         word: 'Be Quiet',
-        icon: '🤫',
+        icon: '/images/icon2.png',
         colorClass: 'color-peach'
     },
     {
         id: 5,
         word: 'Write',
-        icon: '✏️',
+        icon: '/images/icon3.png',
         colorClass: 'color-mint'
     },
     {
         id: 6,
         word: 'Open Your Book',
-        icon: '📖',
+        icon: '/images/openbook.svg',
         colorClass: 'color-green'
     },
     {
         id: 7,
         word: 'Listen',
-        icon: '👂',
+        icon: '/images/icon4.png',
         colorClass: 'color-pink'
     },
     {
         id: 8,
         word: 'Put Up Your Hand',
-        icon: '✋',
+        icon: '/images/icon5.png',
         colorClass: 'color-rose'
     },
     {
         id: 9,
         word: 'Repeat',
-        icon: '🔁',
+        icon: '/images/icon6.png',
         colorClass: 'color-lemon'
     }
 ];
@@ -731,7 +731,14 @@ function VocabularyPage({ onPlayCard }) {
                             className: `vocab-image-area ${item.colorClass}`,
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "vocab-emoji",
-                                children: item.icon
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: item.icon,
+                                    alt: item.word
+                                }, void 0, false, {
+                                    fileName: "[project]/components/vocabulary-page.js",
+                                    lineNumber: 24,
+                                    columnNumber: 45
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/vocabulary-page.js",
                                 lineNumber: 24,
