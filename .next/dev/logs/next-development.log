@@ -1,5 +1,5 @@
-[00:00:01.835] Server  LOG     ✓ Ready in 1379ms
-[00:00:05.628] Server  WARN    ⚠ ./styles/style.scss
+[00:00:02.177] Server  LOG     ✓ Ready in 1574ms
+[00:00:03.661] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
 Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
@@ -13,7 +13,7 @@ styles/style.scss 1:9  root stylesheet
 
 
 
-[00:00:05.629] Server  WARN    ⚠ ./styles/style.scss
+[00:00:03.662] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -28,7 +28,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:00:05.629] Server  WARN    ⚠ ./styles/style.scss
+[00:00:03.662] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 darken() is deprecated. Suggestions:
@@ -45,7 +45,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:00:05.629] Server  WARN    ⚠ ./styles/style.scss
+[00:00:03.663] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1825, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1825:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -60,7 +60,7 @@ styles/style.scss 1826:23  root stylesheet
 
 
 
-[00:00:05.629] Server  WARN    ⚠ ./styles/style.scss
+[00:00:03.663] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1830, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1830:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -75,8 +75,8 @@ styles/style.scss 1831:23  root stylesheet
 
 
 
-[00:00:05.775] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
-[00:00:06.130] Server  WARN    ⚠ ./styles/style.scss
+[00:00:03.793] Server  ERROR   Invalid DOM property `class`. Did you mean `className`?
+[00:00:04.150] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
 Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
@@ -90,7 +90,7 @@ styles/style.scss 1:9  root stylesheet
 
 
 
-[00:00:06.130] Server  WARN    ⚠ ./styles/style.scss
+[00:00:04.151] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -105,7 +105,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:00:06.130] Server  WARN    ⚠ ./styles/style.scss
+[00:00:04.151] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 darken() is deprecated. Suggestions:
@@ -122,7 +122,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:00:06.130] Server  WARN    ⚠ ./styles/style.scss
+[00:00:04.151] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1825, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1825:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -137,7 +137,7 @@ styles/style.scss 1826:23  root stylesheet
 
 
 
-[00:00:06.131] Server  WARN    ⚠ ./styles/style.scss
+[00:00:04.152] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1830, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1830:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -152,8 +152,8 @@ styles/style.scss 1831:23  root stylesheet
 
 
 
-[00:00:06.585] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:00:15.263] Server  WARN    ⚠ ./styles/style.scss
+[00:00:04.570] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:00:07.950] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
 Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
@@ -167,7 +167,7 @@ styles/style.scss 1:9  root stylesheet
 
 
 
-[00:00:15.263] Server  WARN    ⚠ ./styles/style.scss
+[00:00:07.951] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -182,7 +182,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:00:15.263] Server  WARN    ⚠ ./styles/style.scss
+[00:00:07.951] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 darken() is deprecated. Suggestions:
@@ -199,7 +199,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:00:15.263] Server  WARN    ⚠ ./styles/style.scss
+[00:00:07.951] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1825, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1825:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -214,7 +214,7 @@ styles/style.scss 1826:23  root stylesheet
 
 
 
-[00:00:15.263] Server  WARN    ⚠ ./styles/style.scss
+[00:00:07.951] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1830, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1830:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -229,7 +229,7 @@ styles/style.scss 1831:23  root stylesheet
 
 
 
-[00:00:15.708] Server  WARN    ⚠ ./styles/style.scss
+[00:00:08.553] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
 Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
@@ -243,7 +243,7 @@ styles/style.scss 1:9  root stylesheet
 
 
 
-[00:00:15.708] Server  WARN    ⚠ ./styles/style.scss
+[00:00:08.553] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -258,7 +258,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:00:15.708] Server  WARN    ⚠ ./styles/style.scss
+[00:00:08.553] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 darken() is deprecated. Suggestions:
@@ -275,7 +275,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:00:15.708] Server  WARN    ⚠ ./styles/style.scss
+[00:00:08.553] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1825, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1825:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -290,7 +290,7 @@ styles/style.scss 1826:23  root stylesheet
 
 
 
-[00:00:15.708] Server  WARN    ⚠ ./styles/style.scss
+[00:00:08.553] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1830, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1830:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -305,8 +305,7 @@ styles/style.scss 1831:23  root stylesheet
 
 
 
-[00:05:05.455] Server  LOG     ✓ Compiled in 175ms
-[00:08:33.216] Server  WARN    ⚠ ./styles/style.scss
+[00:00:08.884] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
 Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
@@ -320,7 +319,7 @@ styles/style.scss 1:9  root stylesheet
 
 
 
-[00:08:33.216] Server  WARN    ⚠ ./styles/style.scss
+[00:00:08.884] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -335,7 +334,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:08:33.217] Server  WARN    ⚠ ./styles/style.scss
+[00:00:08.885] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 darken() is deprecated. Suggestions:
@@ -352,7 +351,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:08:33.217] Server  WARN    ⚠ ./styles/style.scss
+[00:00:08.887] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1825, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1825:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -367,7 +366,7 @@ styles/style.scss 1826:23  root stylesheet
 
 
 
-[00:08:33.217] Server  WARN    ⚠ ./styles/style.scss
+[00:00:08.894] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1830, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1830:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -382,7 +381,7 @@ styles/style.scss 1831:23  root stylesheet
 
 
 
-[00:08:33.220] Server  WARN    ⚠ ./styles/style.scss
+[00:00:11.661] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
 Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
@@ -396,7 +395,7 @@ styles/style.scss 1:9  root stylesheet
 
 
 
-[00:08:33.220] Server  WARN    ⚠ ./styles/style.scss
+[00:00:11.661] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -411,7 +410,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:08:33.220] Server  WARN    ⚠ ./styles/style.scss
+[00:00:11.661] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 darken() is deprecated. Suggestions:
@@ -428,7 +427,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:08:33.220] Server  WARN    ⚠ ./styles/style.scss
+[00:00:11.661] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1825, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1825:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -443,7 +442,7 @@ styles/style.scss 1826:23  root stylesheet
 
 
 
-[00:08:33.220] Server  WARN    ⚠ ./styles/style.scss
+[00:00:11.661] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1830, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1830:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -458,7 +457,7 @@ styles/style.scss 1831:23  root stylesheet
 
 
 
-[00:08:33.241] Server  WARN    ⚠ ./styles/style.scss
+[00:00:12.110] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
 Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
@@ -472,7 +471,7 @@ styles/style.scss 1:9  root stylesheet
 
 
 
-[00:08:33.241] Server  WARN    ⚠ ./styles/style.scss
+[00:00:12.110] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -487,7 +486,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:08:33.242] Server  WARN    ⚠ ./styles/style.scss
+[00:00:12.111] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 darken() is deprecated. Suggestions:
@@ -504,7 +503,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:08:33.242] Server  WARN    ⚠ ./styles/style.scss
+[00:00:12.111] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1825, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1825:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -519,7 +518,7 @@ styles/style.scss 1826:23  root stylesheet
 
 
 
-[00:08:33.242] Server  WARN    ⚠ ./styles/style.scss
+[00:00:12.111] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1830, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1830:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -534,8 +533,8 @@ styles/style.scss 1831:23  root stylesheet
 
 
 
-[00:08:33.259] Server  LOG     ✓ Compiled in 25ms
-[00:08:41.586] Server  WARN    ⚠ ./styles/style.scss
+[00:01:08.138] Server  LOG     ✓ Compiled in 164ms
+[00:01:20.777] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
 Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
@@ -549,7 +548,7 @@ styles/style.scss 1:9  root stylesheet
 
 
 
-[00:08:41.586] Server  WARN    ⚠ ./styles/style.scss
+[00:01:20.777] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -564,7 +563,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:08:41.586] Server  WARN    ⚠ ./styles/style.scss
+[00:01:20.777] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 darken() is deprecated. Suggestions:
@@ -581,7 +580,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:08:41.586] Server  WARN    ⚠ ./styles/style.scss
+[00:01:20.778] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1825, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1825:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -596,7 +595,7 @@ styles/style.scss 1826:23  root stylesheet
 
 
 
-[00:08:41.587] Server  WARN    ⚠ ./styles/style.scss
+[00:01:20.778] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1830, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1830:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -611,7 +610,7 @@ styles/style.scss 1831:23  root stylesheet
 
 
 
-[00:08:41.917] Server  WARN    ⚠ ./styles/style.scss
+[00:01:21.046] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
 Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
@@ -625,7 +624,7 @@ styles/style.scss 1:9  root stylesheet
 
 
 
-[00:08:41.917] Server  WARN    ⚠ ./styles/style.scss
+[00:01:21.047] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -640,7 +639,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:08:41.917] Server  WARN    ⚠ ./styles/style.scss
+[00:01:21.047] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 darken() is deprecated. Suggestions:
@@ -657,7 +656,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:08:41.917] Server  WARN    ⚠ ./styles/style.scss
+[00:01:21.048] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1825, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1825:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -672,7 +671,7 @@ styles/style.scss 1826:23  root stylesheet
 
 
 
-[00:08:41.918] Server  WARN    ⚠ ./styles/style.scss
+[00:01:21.048] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1830, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1830:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -687,14 +686,8 @@ styles/style.scss 1831:23  root stylesheet
 
 
 
-[00:08:42.746] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
-[00:09:18.922] Server  LOG     ✓ Compiled in 1396ms
-[00:10:33.206] Server  LOG     ✓ Compiled in 270ms
-[00:10:48.041] Server  LOG     ✓ Compiled in 616ms
-[00:16:05.726] Server  LOG     ✓ Compiled in 199ms
-[00:17:24.873] Server  LOG     ✓ Compiled in 58ms
-[00:19:17.672] Server  LOG     ✓ Compiled in 58ms
-[00:21:30.940] Server  WARN    ⚠ ./styles/style.scss
+[00:01:57.398] Server  LOG     ✓ Compiled in 20ms
+[00:02:13.341] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
 Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
@@ -708,7 +701,7 @@ styles/style.scss 1:9  root stylesheet
 
 
 
-[00:21:30.941] Server  WARN    ⚠ ./styles/style.scss
+[00:02:13.341] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -723,7 +716,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:21:30.941] Server  WARN    ⚠ ./styles/style.scss
+[00:02:13.341] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 darken() is deprecated. Suggestions:
@@ -740,7 +733,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:21:30.941] Server  WARN    ⚠ ./styles/style.scss
+[00:02:13.341] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1825, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1825:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -755,7 +748,7 @@ styles/style.scss 1826:23  root stylesheet
 
 
 
-[00:21:30.941] Server  WARN    ⚠ ./styles/style.scss
+[00:02:13.342] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1830, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1830:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -770,7 +763,7 @@ styles/style.scss 1831:23  root stylesheet
 
 
 
-[00:21:31.493] Server  WARN    ⚠ ./styles/style.scss
+[00:02:13.588] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
 Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
@@ -784,7 +777,7 @@ styles/style.scss 1:9  root stylesheet
 
 
 
-[00:21:31.493] Server  WARN    ⚠ ./styles/style.scss
+[00:02:13.589] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -799,7 +792,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:21:31.493] Server  WARN    ⚠ ./styles/style.scss
+[00:02:13.589] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
 darken() is deprecated. Suggestions:
@@ -816,7 +809,7 @@ styles/style.scss 1697:48  root stylesheet
 
 
 
-[00:21:31.494] Server  WARN    ⚠ ./styles/style.scss
+[00:02:13.589] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1825, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1825:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -831,7 +824,7 @@ styles/style.scss 1826:23  root stylesheet
 
 
 
-[00:21:31.494] Server  WARN    ⚠ ./styles/style.scss
+[00:02:13.590] Server  WARN    ⚠ ./styles/style.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 1830, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1830:22:
 Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
@@ -846,3 +839,159 @@ styles/style.scss 1831:23  root stylesheet
 
 
 
+[00:03:10.033] Server  LOG     ✓ Compiled in 1429ms
+[00:03:45.272] Server  LOG     ✓ Compiled in 653ms
+[00:04:04.280] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[00:04:04.280] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1696 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1697:48  root stylesheet
+
+
+
+[00:04:04.281] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.8307692308%)
+color.adjust($color, $lightness: -12%)
+
+More info: https://sass-lang.com/d/color-functions
+
+1696 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1697:48  root stylesheet
+
+
+
+[00:04:04.281] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1825, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1825:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1825 |           background: mix($lilac, $white, 15%);
+
+
+styles/style.scss 1826:23  root stylesheet
+
+
+
+[00:04:04.281] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1830, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1830:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1830 |           background: mix($lilac, $white, 22%);
+
+
+styles/style.scss 1831:23  root stylesheet
+
+
+
+[00:04:04.742] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 0, column 8 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:0:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+0 | @import "mixins";
+
+
+styles/style.scss 1:9  root stylesheet
+
+
+
+[00:04:04.742] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1696 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1697:48  root stylesheet
+
+
+
+[00:04:04.745] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1696, column 47 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1696:47:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.8307692308%)
+color.adjust($color, $lightness: -12%)
+
+More info: https://sass-lang.com/d/color-functions
+
+1696 |     background: linear-gradient(160deg, $mint, darken($mint, 12%));
+
+
+styles/style.scss 1697:48  root stylesheet
+
+
+
+[00:04:04.745] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1825, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1825:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1825 |           background: mix($lilac, $white, 15%);
+
+
+styles/style.scss 1826:23  root stylesheet
+
+
+
+[00:04:04.745] Server  WARN    ⚠ ./styles/style.scss
+Issue while running loader
+SassWarning: Deprecation Warning on line 1830, column 22 of file:///Users/imac/Desktop/next-projects/oyokids/styles/style.scss:1830:22:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+1830 |           background: mix($lilac, $white, 22%);
+
+
+styles/style.scss 1831:23  root stylesheet
+
+
+
+[00:04:20.745] Server  LOG     ✓ Compiled in 456ms
+[00:04:23.764] Server  LOG     ✓ Compiled in 206ms

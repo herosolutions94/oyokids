@@ -823,32 +823,32 @@ const initialCards = [
     {
         id: 1,
         word: 'Sit Down',
-        icon: '🪑'
+        icon: '/images/sitdown.svg'
     },
     {
         id: 2,
         word: 'Stand Up',
-        icon: '🧍'
+        icon: '/images/standup.svg'
     },
     {
         id: 3,
         word: 'Talk',
-        icon: '💬'
+        icon: '/images/icon1.png'
     },
     {
         id: 4,
         word: 'Be Quiet',
-        icon: '🤫'
+        icon: '/images/icon2.png'
     },
     {
         id: 5,
         word: 'Write',
-        icon: '✏️'
+        icon: '/images/icon3.png'
     },
     {
         id: 6,
         word: 'Listen',
-        icon: '👂'
+        icon: '/images/icon4.png'
     }
 ];
 function GameTimePage({ onBack }) {
@@ -1038,7 +1038,14 @@ function GameTimePage({ onBack }) {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "card-face-icon",
-                                            children: card.icon
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                src: card.icon,
+                                                alt: card.word
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/game-time-page.js",
+                                                lineNumber: 95,
+                                                columnNumber: 54
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/game-time-page.js",
                                             lineNumber: 95,

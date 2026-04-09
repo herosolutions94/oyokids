@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
 const initialCards = [
-  { id: 1, word: 'Sit Down',   icon: '🪑' },
-  { id: 2, word: 'Stand Up',   icon: '🧍' },
-  { id: 3, word: 'Talk',       icon: '💬' },
-  { id: 4, word: 'Be Quiet',   icon: '🤫' },
-  { id: 5, word: 'Write',      icon: '✏️' },
-  { id: 6, word: 'Listen',     icon: '👂' },
+  { id: 1, word: 'Sit Down',   icon: '/images/sitdown.svg' },
+  { id: 2, word: 'Stand Up',   icon: '/images/standup.svg' },
+  { id: 3, word: 'Talk',       icon: '/images/icon1.png' },
+  { id: 4, word: 'Be Quiet',   icon: '/images/icon2.png' },
+  { id: 5, word: 'Write',      icon: '/images/icon3.png' },
+  { id: 6, word: 'Listen',     icon: '/images/icon4.png' },
 ];
 
 export default function GameTimePage({ onBack }) {
@@ -92,7 +92,7 @@ export default function GameTimePage({ onBack }) {
               >
                 {isFlipped && card ? (
                   <div className="card-face">
-                    <span className="card-face-icon">{card.icon}</span>
+                    <span className="card-face-icon"><img src={card.icon} alt={card.word} /></span>
                     <span className="card-face-word">{card.word}</span>
                   </div>
                 ) : card ? (
