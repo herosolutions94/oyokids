@@ -2,11 +2,14 @@ self.__BUILD_MANIFEST = {
   "/": [
     "static/chunks/pages/index.js"
   ],
-  "/_error": [
-    "static/chunks/pages/_error.js"
+  "/contact": [
+    "static/chunks/pages/contact.js"
   ],
-  "/adventure": [
-    "static/chunks/pages/adventure.js"
+  "/login": [
+    "static/chunks/pages/login.js"
+  ],
+  "/register": [
+    "static/chunks/pages/register.js"
   ],
   "__rewrites": {
     "afterFiles": [],
@@ -19,6 +22,7 @@ self.__BUILD_MANIFEST = {
     "/_error",
     "/adventure",
     "/api/hello",
+    "/contact",
     "/login",
     "/onboarding",
     "/register"

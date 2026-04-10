@@ -27,7 +27,7 @@ export default function Footer() {
               <Link href="#">Teacher Guide</Link>
               <Link href="#">Blog</Link>
               <Link href="#faq">FAQ</Link>
-              <Link href="#">Contact</Link>
+              <Link href="contact">Contact</Link>
             </div>
 
             <div className="footer-col">
