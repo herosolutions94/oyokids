@@ -4199,4 +4199,84 @@ footer .footer-links a:hover {
   font-size: 12px;
 }
 
+.popup-overlay {
+  z-index: 9999;
+  background: #2f2a3a99;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.popup-card {
+  text-align: center;
+  background: #fff;
+  border-radius: 24px;
+  width: 420px;
+  padding: 35px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 60px #0003;
+}
+
+.popup-bar {
+  background: linear-gradient(90deg, #e17ca8, #9f7eb2, #86a5d3);
+  border-radius: 24px 24px 0 0;
+  height: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.popup-close {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 18px;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+
+.popup-card h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.popup-card p {
+  opacity: .6;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.popup-card input {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+.popup-btn {
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(90deg, #e17ca8, #9f7eb2, #86a5d3);
+  border: none;
+  border-radius: 30px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+}
+
+.popup-link {
+  color: #666;
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=styles_style_scss_css_65f1660e._.single.css.map*/

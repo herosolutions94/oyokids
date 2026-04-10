@@ -3,6 +3,7 @@ import CtaSection from "@/components/cta";
 import Faq from "@/components/Faq";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
+import Popup from "@/components/Popup";
 import Pricing from "@/components/Pricing";
 import Team from "@/components/team";
 import Testimonials from "@/components/testimonials";
@@ -13,8 +14,9 @@ import React from "react";
 const Index = () => {
     
   return (
+    <>
     <main>
-      <section class="hero">
+      <section className="hero">
           <div class="hblob hb1"></div>
           <div class="hblob hb2"></div>
           <div class="hblob hb3"></div>
@@ -55,6 +57,8 @@ const Index = () => {
       <Faq />
       <CtaSection />
     </main>
+    <Popup/>
+    </>
   );
 };
 
